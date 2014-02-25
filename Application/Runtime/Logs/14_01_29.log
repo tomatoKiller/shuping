@@ -1,0 +1,1634 @@
+[ 2014-01-29T13:49:42+08:00 ] ::1 /thinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000059s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000026s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000972s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000062s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000084s ]
+
+[ 2014-01-29T13:49:55+08:00 ] 123.53.213.182 /thinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000046s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000024s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000061s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000085s ]
+
+[ 2014-01-29T13:50:47+08:00 ] 123.53.213.182 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000191s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000054s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000042s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001042s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000154s ]
+
+[ 2014-01-29T13:52:21+08:00 ] 123.150.183.151 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000029s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000023s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000062s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000082s ]
+
+[ 2014-01-29T14:24:51+08:00 ] 169.254.61.120 /thinkphp/index.php/Home
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000030s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000022s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000060s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2014-01-29T14:25:23+08:00 ] 169.254.61.120 /thinkphp/index.php/Home/hello
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000141s ]
+
+[ 2014-01-29T14:26:25+08:00 ] 169.254.61.120 /thinkphp/index.php/Home/Index/hello
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000029s ]
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.032622s ]
+SQL: SELECT * FROM `sp_book`  [ RunTime:0.000645s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000159s ]
+
+[ 2014-01-29T14:26:59+08:00 ] 169.254.61.120 /thinkphp/index.php/Home/Index/hello
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000032s ]
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.005678s ]
+SQL: SELECT * FROM `sp_book`  [ RunTime:0.000732s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000174s ]
+
+[ 2014-01-29T14:27:41+08:00 ] 169.254.61.120 /thinkphp/index.php/Home/Index/weixin
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000156s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000090s ]
+
+[ 2014-01-29T14:28:26+08:00 ] 169.254.61.120 /thinkphp/index.php/Home/Index/weixin
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000153s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000132s ]
+
+[ 2014-01-29T14:28:46+08:00 ] 169.254.61.120 /thinkphp/index.php/Home
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000033s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000024s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000060s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000083s ]
+
+[ 2014-01-29T14:39:42+08:00 ] 169.254.61.120 /thinkphp/index.php/Home/Index/weixin
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000121s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000030s ]
+NOTIC: [8] Undefined index: signature F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 45 行.
+NOTIC: [8] Undefined index: timestamp F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [8] Undefined index: nonce F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant TOKEN - assumed 'TOKEN' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 49 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000267s ]
+
+[ 2014-01-29T14:40:41+08:00 ] 101.226.64.213 /thinkphp/index.php/Home/Index/weixin?signature=f43aae7dae96069f3222032338ffa64c077121c2&echostr=5974729084165988971&timestamp=1390977642&nonce=1391100020
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000192s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000061s ]
+NOTIC: [8] Use of undefined constant TOKEN - assumed 'TOKEN' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 49 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000154s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000256s ]
+
+[ 2014-01-29T14:42:17+08:00 ] 169.254.61.120 /thinkphp/index.php/Home/Index/weixin?signature=aaa&timestamp=2342354&nonce=sfjdsf&echostr=aaaaa
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000137s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000031s ]
+NOTIC: [8] Use of undefined constant TOKEN - assumed 'TOKEN' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 49 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000090s ]
+
+[ 2014-01-29T14:44:19+08:00 ] 101.226.61.144 /thinkphp/index.php/Home/Index/weixin?signature=b961724d868e904b08bb6291da9ecb06c5d2f15e&echostr=5971843780971111239&timestamp=1390977860&nonce=1390428226
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Use of undefined constant TOKEN - assumed 'TOKEN' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 49 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000174s ]
+
+[ 2014-01-29T16:27:34+08:00 ] 101.226.64.213 /thinkphp/index.php/Home/Index/weixin?signature=5083d4fb6060466ad9d649469c81194ebcdf80ba&echostr=5972170576442735479&timestamp=1390984055&nonce=1390504316
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000097s ]
+
+[ 2014-01-29T16:27:35+08:00 ] 119.147.146.189 /thinkphp/index.php/home/index/weixin
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000189s ]
+ERR: 无法加载控制器:index
+
+[ 2014-01-29T16:28:09+08:00 ] 101.226.61.144 /thinkphp/index.php/Home/Index/weixin?signature=1feb8e68d52f4fdc9a325a786a388f7508bc3d72&echostr=5973253509496748953&timestamp=1390984089&nonce=1390756461
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000088s ]
+
+[ 2014-01-29T16:29:53+08:00 ] 101.226.64.201 /thinkphp/index.php/Home/Index/weixin?signature=3c0926b264cc2bc6cd2c0782abd31253b8cc1888&echostr=5976120026504674306&timestamp=1390984194&nonce=1391423878
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000166s ]
+
+[ 2014-01-29T16:30:01+08:00 ] 169.254.61.120 /thinkphp/index.php/Home/Index/weixin?signature=aaa&timestamp=2342354&nonce=sfjdsf&echostr=aaaaa
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000090s ]
+
+[ 2014-01-29T16:30:46+08:00 ] 169.254.61.120 /thinkphp/index.php/Home/Index/weixin?signature=aaa&timestamp=2342354&nonce=sfjdsf&echostr=aaaaa
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000087s ]
+
+[ 2014-01-29T16:38:11+08:00 ] 101.226.64.213 /thinkphp/index.php/Home/Index/weixin?signature=90f1eb667f0afdb85d63db004b6ba2bf66f31c3b&echostr=5972650118131269108&timestamp=1390984692&nonce=1390615981
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000203s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000052s ]
+
+[ 2014-01-29T16:55:37+08:00 ] 169.254.61.120 /thinkphp/index.php/Home/Index/weixin?signature=aaa&timestamp=2342354&nonce=sfjdsf&echostr=aaaaa
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2014-01-29T16:55:39+08:00 ] 169.254.61.120 /thinkphp/index.php/Home/Index/weixin?signature=aaa&timestamp=2342354&nonce=sfjdsf&echostr=aaaaa
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000100s ]
+
+[ 2014-01-29T16:56:06+08:00 ] 101.226.64.201 /thinkphp/index.php/Home/Index/weixin?signature=9ea6a950deabc62167231ae931c4cb8ef645342e&echostr=5974215152674325031&timestamp=1390985767&nonce=1390980356
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000193s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000055s ]
+
+[ 2014-01-29T16:57:34+08:00 ] 14.17.18.144 /thinkphp/index.php/Home/Index/weixin
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000162s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Undefined index: echostr F:\xampp\htdocs\thinkphp\Application\Home\Util\weixinValid.class.php 第 14 行.
+NOTIC: [8] Undefined index: signature F:\xampp\htdocs\thinkphp\Application\Home\Util\weixinValid.class.php 第 26 行.
+NOTIC: [8] Undefined index: timestamp F:\xampp\htdocs\thinkphp\Application\Home\Util\weixinValid.class.php 第 27 行.
+NOTIC: [8] Undefined index: nonce F:\xampp\htdocs\thinkphp\Application\Home\Util\weixinValid.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000145s ]
+
+[ 2014-01-29T16:58:40+08:00 ] 101.226.61.144 /thinkphp/index.php/Home/Index/weixin?signature=b9f7b36768363295843561ae79cf474f62030c2d&echostr=5972800794173948609&timestamp=1390985921&nonce=1390651054
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000127s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000039s ]
+
+[ 2014-01-29T16:59:12+08:00 ] 123.53.213.182 /thinkphp/index.php/Home/Index/weixin?signature=aaa&timestamp=2342354&nonce=sfjdsf&echostr=aaaaa
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000139s ]
+
+[ 2014-01-29T17:00:28+08:00 ] 123.53.213.182 /thinkphp/index.php/Home/Index/weixin?signature=aaa&timestamp=2342354&nonce=sfjdsf&echostr=aaaaa
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000116s ]
+
+[ 2014-01-29T17:02:36+08:00 ] 123.53.213.182 /thinkphp/index.php/Home/Index/weixin?signature=aaa&timestamp=2342354&nonce=sfjdsf&echostr=aaaaa
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000119s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2014-01-29T17:07:43+08:00 ] 123.53.213.182 /thinkphp/index.php/Home/Index/weixin?signature=aaa&timestamp=2342354&nonce=sfjdsf&echostr=aaaaa
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000088s ]
+
+[ 2014-01-29T17:08:14+08:00 ] 123.53.213.182 /thinkphp/index.php/Home/Index/weixin?signature=aaa&timestamp=2342354&nonce=sfjdsf&echostr=aaaaa
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000124s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000166s ]
+
+[ 2014-01-29T17:08:14+08:00 ] 123.53.213.182 /thinkphp/index.php/Home/Index/weixin?signature=aaa&timestamp=2342354&nonce=sfjdsf&echostr=aaaaa
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000106s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000087s ]
+
+[ 2014-01-29T17:08:15+08:00 ] 123.53.213.182 /thinkphp/index.php/Home/Index/weixin?signature=aaa&timestamp=2342354&nonce=sfjdsf&echostr=aaaaa
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000106s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000088s ]
+
+[ 2014-01-29T17:08:24+08:00 ] 101.226.64.213 /thinkphp/index.php/Home/Index/weixin?signature=c098f1d7bd1424ab14f5ecbb96e40e3238148227&echostr=5973078614133490953&timestamp=1390986504&nonce=1390715741
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000127s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000033s ]
+
+[ 2014-01-29T17:10:38+08:00 ] 101.226.64.201 /thinkphp/index.php/Home/Index/weixin?signature=15f59721b3a4d3c3c848f74e153b4f2fa6b46cbb&echostr=5975201629352805775&timestamp=1390986639&nonce=1391210039
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000190s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000052s ]
+
+[ 2014-01-29T17:10:49+08:00 ] 123.53.213.182 /thinkphp/index.php/Home/Index/weixin?signature=aaa&timestamp=2342354&nonce=sfjdsf&echostr=aaaaa
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000088s ]
+
+[ 2014-01-29T17:11:54+08:00 ] 101.226.64.213 /thinkphp/index.php/Home/Index/weixin?signature=1e821cee1ec399527aa8efe357609f6024ccbeb5&echostr=5975936133184931291&timestamp=1390986715&nonce=1391381062
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000200s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000052s ]
+
+[ 2014-01-29T17:19:25+08:00 ] 101.226.64.201 /thinkphp/index.php/Home/Index/weixin?signature=3bc97ab1635a12cb3f109339857dc602ddadb8c4&echostr=5972034541943572382&timestamp=1390987166&nonce=1390472644
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000904s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000034s ]
+
+[ 2014-01-29T17:54:04+08:00 ] 101.226.64.201 /thinkphp/index.php/Home/Index/weixin?signature=f53f040f16ff1e6c371a914ccd90953e1d467316&timestamp=1390989245&nonce=1391232192
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+
+[ 2014-01-29T17:55:20+08:00 ] 101.226.64.213 /thinkphp/index.php/Home/Index/weixin?signature=ad79c99736f488aa74a548aca6231a2981f686c3&timestamp=1390989321&nonce=1391237331
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+
+[ 2014-01-29T17:58:12+08:00 ] 101.226.64.201 /thinkphp/index.php/Home/Index/weixin?signature=78b0231e47ac1ce770e0aacaa9b3471794fd7eaa&timestamp=1390989493&nonce=1391291561
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000188s ]
+
+[ 2014-01-29T18:00:50+08:00 ] 101.226.64.201 /thinkphp/index.php/Home/Index/weixin?signature=cc59e446d65a317468c192f5b4db677db4d5dc7b&echostr=5972413293634572627&timestamp=1390989651&nonce=1390560829
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000120s ]
+
+[ 2014-01-29T18:01:22+08:00 ] 101.226.64.201 /thinkphp/index.php/Home/Index/weixin?signature=651fe1deb67d8f9965fc82d8ff7e9b43280accb1&echostr=5972349964341793139&timestamp=1390989683&nonce=1390546084
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000191s ]
+
+[ 2014-01-29T18:02:10+08:00 ] 101.226.61.144 /thinkphp/index.php/Home/Index/weixin?signature=499a2e60a5b0550c8a0ec5ed4a882d8685b9ba51&echostr=5974990527415243171&timestamp=1390989731&nonce=1391160888
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000943s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+
+[ 2014-01-29T18:02:21+08:00 ] 101.226.64.213 /thinkphp/index.php/Home/Index/weixin?signature=7a6be22d39dd8e05d17c8ed65158fbc2fa515d57&echostr=5972451978405007790&timestamp=1390989742&nonce=1390569836
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000138s ]
+
+[ 2014-01-29T18:03:41+08:00 ] 101.226.64.213 /thinkphp/index.php/Home/Index/weixin?signature=318f368860e52395540919b620c2f01a4b85baf4&echostr=5974176601047880191&timestamp=1390989822&nonce=1390971378
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000133s ]
+
+[ 2014-01-29T18:05:24+08:00 ] 101.226.64.213 /thinkphp/index.php/Home/Index/weixin?signature=8eb520f47847a5c8439ed5b16687d3c1d329e267&echostr=5973609880113173092&timestamp=1390989924&nonce=1390839444
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000192s ]
+
+[ 2014-01-29T18:07:10+08:00 ] 123.53.213.182 /thinkphp/index.php/Home/Index/weixin?signature=aaa&timestamp=2342354&nonce=sfjdsf&echostr=aaaaa
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+
+[ 2014-01-29T18:07:45+08:00 ] 123.53.213.182 /thinkphp/index.php/Home/Index/weixin?signature=aaa&timestamp=2342354&nonce=sfjdsf&echostr=aaaaa
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000106s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000088s ]
+
+[ 2014-01-29T18:08:05+08:00 ] 101.226.61.144 /thinkphp/index.php/Home/Index/weixin?signature=ee835989a2e2c24bc5ae9e6d1c37dcb7a0a5f1a3&echostr=5974084564193694470&timestamp=1390990086&nonce=1390949953
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000174s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000046s ]
+
+[ 2014-01-29T18:08:55+08:00 ] 101.226.64.201 /thinkphp/index.php/Home/Index/weixin?signature=01f12e1a3c7742adfd741f8a9ee2303bc8ecb252&timestamp=1390990135&nonce=1390620527
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000182s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000055s ]
+
+[ 2014-01-29T18:11:36+08:00 ] 101.226.64.213 /thinkphp/index.php/Home/Index/weixin?signature=32a8e662d9d85c1706a3a7678eae5ec2bb24dff1&timestamp=1390990296&nonce=1390851661
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000029s ]
+
+[ 2014-01-29T18:12:31+08:00 ] 101.226.64.213 /thinkphp/index.php/Home/Index/weixin?signature=97b05a7d1a3b2bc4120eddffbb9582c2661044a5&timestamp=1390990352&nonce=1391355529
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000188s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000071s ]
+
+[ 2014-01-29T18:14:45+08:00 ] 101.226.64.213 /thinkphp/index.php/Home/Index/weixin?signature=10bb6699672af9326e9691bf7a3e24b79a69e776&echostr=5971991961637803158&timestamp=1390990486&nonce=1390462731
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000064s ]
+
+[ 2014-01-29T18:24:43+08:00 ] 101.226.64.201 /thinkphp/index.php/Home/Index/weixin?signature=ad43eba56b9154b1881e0ff0a445f58ddb2f464c&timestamp=1390991084&nonce=1390991673
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000187s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000323s ]
+
+[ 2014-01-29T18:28:45+08:00 ] 101.226.64.201 /thinkphp/index.php/Home/Index/weixin?signature=aad13c21b35ee50d48abffd70dbfb4968baf71ea&timestamp=1390991326&nonce=1391330853
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000188s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000179s ]
+
+[ 2014-01-29T18:33:08+08:00 ] 169.254.61.120 /thinkphp/index.php/Home/Index/hello
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000057s ]
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.026125s ]
+SQL: SELECT * FROM `sp_book`  [ RunTime:0.000547s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 19 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000160s ]
+
+[ 2014-01-29T18:34:46+08:00 ] 169.254.61.120 /thinkphp/index.php/Digg
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000166s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.005957s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name`) VALUES ('计算机程序的构造和解释','Harold Abelson\n        \n           / \n        \n        Gerald Jay Sussman\n        \n           / \n        \n        Julie Sussman','裘宗燕',45,'机械工业出版社','2004-2',473,'简裝本','9787111135104','','http://img5.douban.com/mpic/s1113106.jpg') [ RunTime:0.032356s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name`) VALUES ('深入理解计算机系统','Randal E.Bryant\n        \n           / \n        \n        David O&#39;Hallaron','龚奕利\n        \n           / \n        \n        雷迎春',85,'中国电力','2004-5-1',873,'平装(无盘)','9787508321752','','http://img3.douban.com/mpic/s1436460.jpg') [ RunTime:0.031311s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name`) VALUES ('算法导论','[美] Thomas H.Cormen\n        \n           / \n        \n        Charles E.Leiserson\n        \n           / \n        \n        Ronald L.Rivest\n        \n           / \n        \n        Clifford Stein','潘金贵 等',85,'机械工业出版社','2006-9',754,'平装','9787111187776','','http://img5.douban.com/mpic/s1959967.jpg') [ RunTime:0.027907s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name`) VALUES ('代码大全（第2版）','[美] 史蒂夫·迈克康奈尔','金戈\n        \n           / \n        \n        汤凌\n        \n           / \n        \n        陈硕\n        \n           / \n        \n        张菲 译\n        \n           / \n        \n        裘宗燕 审校',128,'电子工业出版社','2006-3',944,'平装','9787121022982','','http://img5.douban.com/mpic/s1495029.jpg') [ RunTime:0.051255s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name`) VALUES ('C程序设计语言','（美）Brian W. Kernighan\n        \n           / \n        \n        （美）Dennis M. Ritchie','徐宝文',30,'机械工业出版社','2004-1',258,'平装','9787111128069','','http://img3.douban.com/mpic/s1106934.jpg') [ RunTime:0.027888s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name`) VALUES ('编程珠玑','Jon Bentley','黄倩\n        \n           / \n        \n        钱丽艳',39,'人民邮电出版社','2008-10',228,'平装','9787115179289','','http://img3.douban.com/mpic/s4687321.jpg') [ RunTime:0.099274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000129s ]
+
+[ 2014-01-29T18:35:07+08:00 ] 169.254.61.120 /thinkphp/index.php/Home/Index/hello
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000053s ]
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.005505s ]
+SQL: SELECT * FROM `sp_book`  [ RunTime:0.000650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000173s ]
+
+[ 2014-01-29T18:37:12+08:00 ] 101.226.61.144 /thinkphp/index.php/Home/Index/weixin?signature=c2ad195451f47f2a823c7e039084adaccd5ff7dd&timestamp=1390991831&nonce=1391380616
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000035s ]
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.005768s ]
+SQL: SELECT * FROM `sp_book`  [ RunTime:0.000768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000197s ]
+
+[ 2014-01-29T18:40:08+08:00 ] 101.226.64.201 /thinkphp/index.php/Home/Index/weixin?signature=9049d2253d724e75ae3ec45dd58fe0b16dd94c65&timestamp=1390992007&nonce=1391262541
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000208s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.005870s ]
+SQL: SELECT * FROM `sp_book`  [ RunTime:0.000719s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000197s ]
+
+[ 2014-01-29T18:43:47+08:00 ] 101.226.61.144 /thinkphp/index.php/Home/Index/weixin?signature=780c4035b42fda4948ea45327404d61fd04c6a13&timestamp=1390992225&nonce=1390678331
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000187s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000054s ]
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.018368s ]
+SQL: SELECT * FROM `sp_book`  [ RunTime:0.000745s ]
+NOTIC: [2] preg_replace() expects at least 3 parameters, 2 given F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 35 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000241s ]
+
+[ 2014-01-29T18:44:24+08:00 ] 101.226.64.201 /thinkphp/index.php/Home/Index/weixin?signature=2cd06059dd06b1b4b6ffa1d3b43687fe6f436e57&timestamp=1390992263&nonce=1390937635
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000191s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.005842s ]
+SQL: SELECT * FROM `sp_book`  [ RunTime:0.000741s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000200s ]
+
+[ 2014-01-29T18:45:23+08:00 ] 101.226.64.201 /thinkphp/index.php/Home/Index/weixin?signature=8c90c1531678a04a2497f485707ef489b1f22eab&timestamp=1390992321&nonce=1390657899
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000180s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000055s ]
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006014s ]
+SQL: SELECT * FROM `sp_book`  [ RunTime:0.000755s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000200s ]
+
+[ 2014-01-29T18:46:04+08:00 ] 101.226.61.144 /thinkphp/index.php/Home/Index/weixin?signature=adcf71f2e8f65bfd14d1db87fc17da20e8d02d1f&timestamp=1390992362&nonce=1390439176
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006063s ]
+SQL: SELECT * FROM `sp_book`  [ RunTime:0.000781s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000182s ]
+
+[ 2014-01-29T18:49:24+08:00 ] 101.226.64.213 /thinkphp/index.php/Home/Index/weixin?signature=aba9eeb4f9bd7a1c4f1faf3958dc5c09ed05d951&timestamp=1390992563&nonce=1391178871
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000039s ]
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.031810s ]
+SQL: SELECT * FROM `sp_book`  [ RunTime:0.000682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000156s ]
+
+[ 2014-01-29T19:09:08+08:00 ] 101.226.64.213 /thinkphp/index.php/Home/Index/weixin?signature=7beb47a90e5eb0df06a003f2315faed417772065&timestamp=1390993746&nonce=1390727998
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.003883s ]
+SQL: SELECT * FROM `sp_book`  [ RunTime:0.000547s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000107s ]
+
+[ 2014-01-29T20:31:45+08:00 ] 101.226.64.201 /thinkphp/index.php/Home/Index/weixin?signature=b80afb2b156c25cf5989536929d9340308bdd7ba&timestamp=1390998703&nonce=1390693744
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000886s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000190s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000055s ]
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.005960s ]
+SQL: SELECT * FROM `sp_book`  [ RunTime:0.000676s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000201s ]
+
+[ 2014-01-29T20:33:14+08:00 ] 101.226.64.201 /thinkphp/index.php/Home/Index/weixin?signature=b410ab7d8560203b6bcd3d62b06326480809f9a2&timestamp=1390998793&nonce=1390536334
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000201s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000059s ]
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.005979s ]
+SQL: SELECT * FROM `sp_book`  [ RunTime:0.000751s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000200s ]
+
+[ 2014-01-29T20:40:57+08:00 ] 101.226.64.201 /thinkphp/index.php/Home/Index/weixin?signature=60346a9768a352836e5728bdb6e6b780c6c3afea&timestamp=1390999255&nonce=1390635162
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000188s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000055s ]
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.005960s ]
+SQL: SELECT * FROM `sp_book`  [ RunTime:0.000710s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000208s ]
+
+[ 2014-01-29T21:08:58+08:00 ] 101.226.61.144 /thinkphp/index.php/Home/Index/weixin?signature=727b66aa36b4e334171062512f74b8d36ebfd820&timestamp=1391000939&nonce=1391211378
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000171s ]
+
+[ 2014-01-29T21:09:44+08:00 ] 101.226.64.213 /thinkphp/index.php/Home/Index/weixin?signature=d6185a1752fad150820a047256ed5173e443525b&timestamp=1391000985&nonce=1391143340
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000774s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000182s ]
+
+[ 2014-01-29T21:10:38+08:00 ] 101.226.64.213 /thinkphp/index.php/Home/Index/weixin?signature=6bdb2807062bb8b80e86f214457bcf94fe9331aa&timestamp=1391001036&nonce=1390749262
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000119s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000036s ]
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006119s ]
+SQL: SELECT * FROM `sp_book`  [ RunTime:0.000781s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000199s ]
+
+[ 2014-01-29T21:21:01+08:00 ] 101.226.61.144 /thinkphp/index.php/Home/Index/weixin?signature=164f445da21c5a789683b5bed052d192af10fc77&timestamp=1391001660&nonce=1391450450
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000172s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000031s ]
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.025944s ]
+SQL: SELECT * FROM `sp_book`  [ RunTime:0.000796s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000198s ]
+
+[ 2014-01-29T21:22:46+08:00 ] 101.226.64.213 /thinkphp/index.php/Home/Index/weixin?signature=813589a6f6b5a69a714955614b8412e301f8557a&timestamp=1391001765&nonce=1391287348
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000200s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000059s ]
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006146s ]
+SQL: SELECT * FROM `sp_book`  [ RunTime:0.000654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000183s ]
+
+[ 2014-01-29T21:27:55+08:00 ] 101.226.64.201 /thinkphp/index.php/Home/Index/weixin?signature=82163307030d036b8cf0c368c6e1278d3cefc39f&timestamp=1391002075&nonce=1390821428
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000183s ]
+
+[ 2014-01-29T21:30:14+08:00 ] 101.226.64.201 /thinkphp/index.php/Home/Index/weixin?signature=fe76552350bbef95484d20e5a269eb465f52cf7a&timestamp=1391002212&nonce=1390597007
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000186s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.005884s ]
+SQL: SELECT * FROM `sp_book`  [ RunTime:0.000784s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000210s ]
+
+[ 2014-01-29T21:30:47+08:00 ] 101.226.64.201 /thinkphp/index.php/Home/Index/weixin?signature=900500dd569269498bb80b8158b256b636095d39&timestamp=1391002245&nonce=1391364719
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000125s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000040s ]
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.026085s ]
+SQL: SELECT * FROM `sp_book`  [ RunTime:0.000590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000172s ]
+
+[ 2014-01-29T21:41:01+08:00 ] 169.254.61.120 /thinkphp/index.php/Home/Index/hello
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000176s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000054s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000039s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.029028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029128s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000096s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000136s ]
+
+[ 2014-01-29T21:41:40+08:00 ] 169.254.61.120 /thinkphp/index.php/Home/Index/hello
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000030s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007228s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000061s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000125s ]
+
+[ 2014-01-29T22:05:11+08:00 ] 169.254.61.120 /thinkphp/index.php/Home/Index/
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+
+[ 2014-01-29T22:05:29+08:00 ] 169.254.61.120 /thinkphp/index.php/Home/Index/
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000035s ]
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007226s ]
+SQL: SELECT * FROM `sp_book`  [ RunTime:0.000944s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000048s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000113s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000190s ]
+
+[ 2014-01-29T22:08:18+08:00 ] 101.226.61.144 /thinkphp/index.php/Home/Index/weixin?signature=36a57c15545b980efa5e38fe9c1e3ab035cc1fb2&timestamp=1391004497&nonce=1391119201
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000175s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000036s ]
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.005208s ]
+SQL: SELECT * FROM `sp_book`  [ RunTime:0.000704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000164s ]
+
+[ 2014-01-29T22:08:54+08:00 ] 101.226.64.213 /thinkphp/index.php/Home/Index/weixin?signature=293069989b28d2e7f26911561278677280a250dd&timestamp=1391004532&nonce=1390754354
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000198s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.005655s ]
+SQL: SELECT * FROM `sp_book`  [ RunTime:0.000744s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000216s ]
+
+[ 2014-01-29T22:09:00+08:00 ] 123.53.213.182 /thinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000123s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000035s ]
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.005829s ]
+SQL: SELECT * FROM `sp_book`  [ RunTime:0.000766s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000048s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000126s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000173s ]
+
+[ 2014-01-29T22:09:18+08:00 ] 123.53.213.182 /thinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000192s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000053s ]
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.005878s ]
+SQL: SELECT * FROM `sp_book`  [ RunTime:0.000727s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000049s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000127s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000173s ]
+
+[ 2014-01-29T22:29:01+08:00 ] 101.226.64.201 /thinkphp/index.php/Home/Index/weixin?signature=a661d5b9111321630b83b68dfebcab02f7204429&timestamp=1391005740&nonce=1391271863
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000036s ]
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.005536s ]
+SQL: SELECT * FROM `sp_book`  [ RunTime:0.000769s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000167s ]
+
+[ 2014-01-29T22:30:28+08:00 ] 101.226.64.201 /thinkphp/index.php/Home/Index/weixin?signature=770cfd5c64889ea536d0f28a203992a28d82e0d7&timestamp=1391005826&nonce=1390567432
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000167s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.005006s ]
+SQL: SELECT * FROM `sp_book`  [ RunTime:0.000701s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000227s ]
+
+[ 2014-01-29T22:30:31+08:00 ] 123.53.213.182 /thinkphp/index.php/Home/Index/detail?isbn=9787111128069&title=C%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%AF%AD%E8%A8%80&author=%EF%BC%88%E7%BE%8E%EF%BC%89Brian+W.+Kernighan++++++++++++++++++++++++++++++++++++%EF%BC%88%E7%BE%8E%EF%BC%89Dennis+M.+Ritchie&translator=%E5%BE%90%E5%AE%9D%E6%96%87&publisher=%E6%9C%BA%E6%A2%B0%E5%B7%A5%E4%B8%9A%E5%87%BA%E7%89%88%E7%A4%BE&publish_time=2004-1&price=30.00&page_num=258&zhuangzhen=%E5%B9%B3%E8%A3%85&introduct=&pic_name=http%3A%2F%2F123.53.213.182%2Fthinkphp%2FPublic%2Fimg%2Flpic%2F9787111128069.jpg
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000197s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000054s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000043s ]
+ERR: 模板不存在:./Application/Home/View/Index/detail.html
+
+[ 2014-01-29T22:30:58+08:00 ] 123.53.213.182 /thinkphp/index.php/Home/Index/detail?isbn=9787111128069&title=C%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%AF%AD%E8%A8%80&author=%EF%BC%88%E7%BE%8E%EF%BC%89Brian+W.+Kernighan++++++++++++++++++++++++++++++++++++%EF%BC%88%E7%BE%8E%EF%BC%89Dennis+M.+Ritchie&translator=%E5%BE%90%E5%AE%9D%E6%96%87&publisher=%E6%9C%BA%E6%A2%B0%E5%B7%A5%E4%B8%9A%E5%87%BA%E7%89%88%E7%A4%BE&publish_time=2004-1&price=30.00&page_num=258&zhuangzhen=%E5%B9%B3%E8%A3%85&introduct=&pic_name=http%3A%2F%2F123.53.213.182%2Fthinkphp%2FPublic%2Fimg%2Flpic%2F9787111128069.jpg
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000059s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000047s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000174s ]
+
+[ 2014-01-29T22:39:26+08:00 ] 101.226.61.144 /thinkphp/index.php/Home/Index/weixin?signature=1fedce5beccd381371a75cb07a4816dacd089e0a&timestamp=1391006364&nonce=1390930679
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000187s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000054s ]
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006027s ]
+SQL: SELECT * FROM `sp_book`  [ RunTime:0.000707s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000200s ]
+
+[ 2014-01-29T22:39:29+08:00 ] 123.53.213.182 /thinkphp/index.php/Home/Index/detail?isbn=9787111128069&title=C%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%AF%AD%E8%A8%80&author=%EF%BC%88%E7%BE%8E%EF%BC%89Brian+W.+Kernighan++++++++++++++++++++++++++++++++++++%EF%BC%88%E7%BE%8E%EF%BC%89Dennis+M.+Ritchie&translator=%E5%BE%90%E5%AE%9D%E6%96%87&publisher=%E6%9C%BA%E6%A2%B0%E5%B7%A5%E4%B8%9A%E5%87%BA%E7%89%88%E7%A4%BE&publish_time=2004-1&price=30.00&page_num=258&zhuangzhen=%E5%B9%B3%E8%A3%85&introduct=&pic_name=http%3A%2F%2F123.53.213.182%2Fthinkphp%2FPublic%2Fimg%2Flpic%2F9787111128069.jpg
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000191s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000060s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000043s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+NOTIC: [8] Undefined variable: isbn F:\xampp\htdocs\thinkphp\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 16 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000062s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000085s ]
+
+[ 2014-01-29T22:40:25+08:00 ] 123.53.213.182 /thinkphp/index.php/Home/Index/detail?isbn=9787111128069&title=C%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%AF%AD%E8%A8%80&author=%EF%BC%88%E7%BE%8E%EF%BC%89Brian+W.+Kernighan++++++++++++++++++++++++++++++++++++%EF%BC%88%E7%BE%8E%EF%BC%89Dennis+M.+Ritchie&translator=%E5%BE%90%E5%AE%9D%E6%96%87&publisher=%E6%9C%BA%E6%A2%B0%E5%B7%A5%E4%B8%9A%E5%87%BA%E7%89%88%E7%A4%BE&publish_time=2004-1&price=30.00&page_num=258&zhuangzhen=%E5%B9%B3%E8%A3%85&introduct=&pic_name=http%3A%2F%2F123.53.213.182%2Fthinkphp%2FPublic%2Fimg%2Flpic%2F9787111128069.jpg
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000180s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000051s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000039s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011473s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000143s ]
+
+[ 2014-01-29T22:41:42+08:00 ] 101.226.64.213 /thinkphp/index.php/Home/Index/weixin?signature=3dbc749ad34865cbfdf78c9cb0a6eb73868d9a50&timestamp=1391006501&nonce=1390532398
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000106s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000030s ]
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.005590s ]
+SQL: SELECT * FROM `sp_book`  [ RunTime:0.000895s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000185s ]
+
+[ 2014-01-29T22:41:47+08:00 ] 223.10.140.46 /thinkphp/index.php/Home/Index/detail?isbn=9787111128069&title=C%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%AF%AD%E8%A8%80&author=%EF%BC%88%E7%BE%8E%EF%BC%89Brian+W.+Kernighan++++++++++++++++++++++++++++++++++++%EF%BC%88%E7%BE%8E%EF%BC%89Dennis+M.+Ritchie&translator=%E5%BE%90%E5%AE%9D%E6%96%87&publisher=%E6%9C%BA%E6%A2%B0%E5%B7%A5%E4%B8%9A%E5%87%BA%E7%89%88%E7%A4%BE&publish_time=2004-1&price=30.00&page_num=258&zhuangzhen=%E5%B9%B3%E8%A3%85&introduct=&pic_name=http%3A%2F%2F123.53.213.182%2Fthinkphp%2FPublic%2Fimg%2Flpic%2F9787111128069.jpg
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000049s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000041s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000064s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2014-01-29T22:42:37+08:00 ] 169.254.61.120 /thinkphp/index.php/Home/Index/
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001216s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000118s ]
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.027721s ]
+SQL: SELECT * FROM `sp_book`  [ RunTime:0.000706s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000041s ]
+ERR: 模板不存在:./Application/Home/View/Index/index.html
+
+[ 2014-01-29T23:27:23+08:00 ] ::1 /thinkphp/index.php/Digg/Digg/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000042s ]
+ERR: 非法操作:index
+
+[ 2014-01-29T23:27:44+08:00 ] ::1 /thinkphp/index.php/Digg
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.005475s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name`) VALUES ('计算机程序的构造和解释','Harold Abelson\n        \n           / \n        \n        Gerald Jay Sussman\n        \n           / \n        \n        Julie Sussman','裘宗燕',45,'机械工业出版社','2004-2',473,'简裝本','9787111135104','\n    <p>《计算机程序的构造和解释(原书第2版)》1984年出版，成型于美国麻省理工学院(MIT)多年使用的一本教材，1996年修订为第2版。在过去的二十多年里，《计算机程序的构造和解释(原书第2版)》对于计算机科学的教育计划产生了深刻的影响。第2版中大部分重要程序设计系统都重新修改并做过测试，包括各种解释器和编译器。作者根据其后十余年的教学实践，还对其他许多细节做了相应的修改。</p>    <p></p>    <p>海报：</p>','http://img5.douban.com/mpic/s1113106.jpg') [ RunTime:0.032541s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name`) VALUES ('深入理解计算机系统','Randal E.Bryant\n        \n           / \n        \n        David O&#39;Hallaron','龚奕利\n        \n           / \n        \n        雷迎春',85,'中国电力','2004-5-1',873,'平装(无盘)','9787508321752','\n    <p>从程序员的视角，看计算机系统！</p>    <p>本书适用于那些想要写出更快、更可靠程序的程序员。通过掌握程序是如何映射到系统上，以及程序是如何执行的，读者能够更好的理解程序的行为为什么是这样的，以及效率低下是如何造成的。粗略来看，计算机系统包括处理器和存储器硬件、编译器、操作系统和网络互连环境。而通过程序员的视角，读者可以清晰地明白学习计算机系统的内部工作原理会对他们今后作为计算机科学研究者和工程师的工作有进一步的帮助。它还有助于为进一步学习计算机体系结构、操作系统、编译器和网络互连做好准备。</p>    <p>本书的主要论题包括：数据表示、C程序的机器级表示、处理器结构，程序优化、存储器层次结构、链接、异常控制流、虚拟存储器和存储器管理、系统级I/O、网络编程和并发编程。书中所覆盖的内容主要是这些方面是如何影响应用和系统程序员的。例如，在讲述数据表示时，本书说明了用来表示数字的表示方法是有限的，它能够近似地表示整数和实数，但是这种表示方法是有限制的，程序员必须了解。在讲述高速缓存时，本书讨论了矩阵代码中的循环变量的顺序是如何影响程序的性能的。在讨论网络互连时，本书描述了并发服务器如何能有效地处理来自多个客户端的请求。</p>    <p>本书基于Intel兼容（IA32）机器，在Unix或者相关的操作系统（例如，Linux）上执行C程序。虽然书中包括了一些帮助读者将Java转化成C的提示，但是还是要求读者对C或者C++有一定的了解。</p>    <p>您可以通过本书的Web网站www.csapp.cs.cmu.edu获得完整的资料，包括实验和作业，授课笔记和代码示例。</p>    <p>本书英文版久负盛名，被众多专业人士称为“最伟大的计算机教材”之一，著名的美国卡内基梅隆大学计算机科学系一直将本书作为教材使用，程序员眼中的透彻讲述计算机系统的扛鼎之作。作者Randal E. Bryant是卡耐基梅隆大学的计算机科学系主任，ACM和IEEE双院士（Fellow），其研究成果多次获得ACM和IEEE颁发的大奖。</p>    <p>本书共分十三章，分别介绍了信息的表示和处理、程序的机器级表示、处理器体系结构、存储器层次结构、静态和动态链接、虚拟存储器、系统级I/O、网络编程和并发编程等精彩内容。其目的是解释计算机系统的所有本质概念，并向读者展示这些概念是如何实际地影响应用程序的正确性、性能和实用性。与其他主要针对系统构造人员的系统类书籍不同，这本书是写给程序员的，是从程序员的角度来描述的。本书为软件和硬件之间搭起了一个桥梁，它给出了一种帮助读者分别从硬件和软件的角度去理解一个程序及其行为的途径，这也填补了国内计算机系统教学中的一个空白。本书的最大优点是帮助读者理解概念，让读者很清楚地在脑海中构造一个层次型的计算机系统，从最低层数据在内存中的表示（如我们一直陌生的浮点数表示），到流水线指令的构成，到虚拟存储器，到编译系统，到动态加载库，到最后的用户应用。</p>    <p>本书提供了大量的例子和练习及部分答案。尤其值得一提的是，对于每一个基本概念都有相应的笔头或程序试验，加深读者的理解。</p>','http://img3.douban.com/mpic/s1436460.jpg') [ RunTime:0.092230s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name`) VALUES ('算法导论','[美] Thomas H.Cormen\n        \n           / \n        \n        Charles E.Leiserson\n        \n           / \n        \n        Ronald L.Rivest\n        \n           / \n        \n        Clifford Stein','潘金贵 等',85,'机械工业出版社','2006-9',754,'平装','9787111187776','\n    <p>这本书深入浅出，全面地介绍了计算机算法。对每一个算法的分析既易于理解又十分有趣，并保持了数学严谨性。本书的设计目标全面，适用于多种用途。涵盖的内容有：算法在计算中的作用，概率分析和随机算法的介绍。书中专门讨论了线性规划，介绍了动态规划的两个应用，随机化和线性规划技术的近似算法等，还有有关递归求解、快速排序中用到的划分方法与期望线性时间顺序统计算法，以及对贪心算法元素的讨论。此书还介绍了对强连通子图算法正确性的证明，对哈密顿回路和子集求和问题的NP完全性的证明等内容。全书提供了900多个练习题和思考题以及叙述较为详细的实例研究。</p>','http://img5.douban.com/mpic/s1959967.jpg') [ RunTime:0.064369s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name`) VALUES ('代码大全（第2版）','[美] 史蒂夫·迈克康奈尔','金戈\n        \n           / \n        \n        汤凌\n        \n           / \n        \n        陈硕\n        \n           / \n        \n        张菲 译\n        \n           / \n        \n        裘宗燕 审校',128,'电子工业出版社','2006-3',944,'平装','9787121022982','\n    <p>第2版的《代码大全》是著名IT畅销书作者史蒂夫·迈克康奈尔11年前的经典著作的全新演绎：第2版不是第一版的简单修订增补，而是完全进行了重写；增加了很多与时俱进的内容。这也是一本完整的软件构建手册，涵盖了软件构建过程中的所有细节。它从软件质量和编程思想等方面论述了软件构建的各个问题，并详细论述了紧跟潮流的新技术、高屋建瓴的观点、通用的概念，还含有丰富而典型的程序示例。这本书中所论述的技术不仅填补了初级与高级编程技术之间的空白，而且也为程序员们提供了一个有关编程技巧的信息来源。这本书对经验丰富的程序员、技术带头人、自学的程序员及几乎不懂太多编程技巧的学生们都是大有裨益的。可以说，无论是什么背景的读者，阅读这本书都有助于在更短的时间内、更容易地写出更好的程序。</p>','http://img5.douban.com/mpic/s1495029.jpg') [ RunTime:0.032079s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name`) VALUES ('C程序设计语言','（美）Brian W. Kernighan\n        \n           / \n        \n        （美）Dennis M. Ritchie','徐宝文',30,'机械工业出版社','2004-1',258,'平装','9787111128069','\n    <p>在计算机发展的历史上，没有哪一种程序设计语言像C语言这样应用广泛。本书原著即为C语言的设计者之一Dennis M.Ritchie和著名计算机科学家Brian W.Kernighan合著的一本介绍C语言的权威经典著作。我们现在见到的大量论述C语言程序设计的教材和专著均以此书为蓝本。原著第1版中介绍的C语言成为后来广泛使用的C语言版本——标准C的基础。人们熟知的“hello,World&#34;程序就是由本书首次引入的，现在，这一程序已经成为众多程序设计语言入门的第一课。</p>    <p>原著第2版根据1987年制定的ANSIC标准做了适当的修订．引入了最新的语言形式，并增加了新的示例，通过简洁的描述、典型的示例，作者全面、系统、准确地讲述了C语言的各个特性以及程序设计的基本方法。对于计算机从业人员来说，《C程序设计语言》是一本必读的程序设计语 言方面的参考书。</p>','http://img3.douban.com/mpic/s1106934.jpg') [ RunTime:0.035247s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name`) VALUES ('编程珠玑','Jon Bentley','黄倩\n        \n           / \n        \n        钱丽艳',39,'人民邮电出版社','2008-10',228,'平装','9787115179289','\n    <p>本书是计算机科学方面的经典名著。书的内容围绕程序设计人员面对的一系列实际问题展开。作者Jon Bentley 以其独有的洞察力和创造力，引导读者理解这些问题并学会解决方法，而这些正是程序员实际编程生涯中至关重要的。本书的特色是通过一些精心设计的有趣而又颇具指导意义的程序，对实用程序设计技巧及基本设计原则进行了透彻而睿智的描述，为复杂的编程问题提供了清晰而完备的解决思路。本书对各个层次的程序员都具有很高的阅读价值。.</p>    <p>多年以来，当程序员们推选出最心爱的计算机图书时，《编程珠玑》总是位列前列。正如自然界里珍珠出自细沙对牡蛎的磨砺，计算机科学大师Jon Bentley以其独有的洞察力和创造力，从磨砺程序员的实际问题中凝结出一篇篇不朽的编程“珠玑”，成为世界计算机界名刊《ACM通讯》历史上最受欢迎的专栏，最终结集为两部不朽的计算机科学经典名著，影响和激励着一代又一代程序员和计算机科学工作者。本书为第一卷，主要讨论计算机科学中最本质的问题：如何正确选择和高效地实现算法。..</p>    <p>在书中，作者选取许多具有典型意义的复杂编程和算法问题，生动描绘了历史上众大师们在探索解决方案中发生的轶事、走过的弯路和不断精益求精的历程，引导读者像真正的程序员和软件工程师那样富于创新性地思考，并透彻阐述和总结了许多独特而精妙的设计原则、思考和解决问题的方法以及实用程序设计技巧。解决方案的代码均以C/C++语言编写，不仅有趣，而且有很大的实战示范意义。每章后所附习题极具挑战性和启发性，书末给出了简洁的解答。...</p>','http://img3.douban.com/mpic/s4687321.jpg') [ RunTime:0.036070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000170s ]
+
+[ 2014-01-29T23:28:03+08:00 ] 123.53.213.182 /thinkphp/index.php/Home/Index/detail?isbn=9787111128069&title=C%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%AF%AD%E8%A8%80&author=%EF%BC%88%E7%BE%8E%EF%BC%89Brian+W.+Kernighan++++++++++++++++++++++++++++++++++++%EF%BC%88%E7%BE%8E%EF%BC%89Dennis+M.+Ritchie&translator=%E5%BE%90%E5%AE%9D%E6%96%87&publisher=%E6%9C%BA%E6%A2%B0%E5%B7%A5%E4%B8%9A%E5%87%BA%E7%89%88%E7%A4%BE&publish_time=2004-1&price=30.00&page_num=258&zhuangzhen=%E5%B9%B3%E8%A3%85&introduct=&pic_name=http%3A%2F%2F123.53.213.182%2Fthinkphp%2FPublic%2Fimg%2Flpic%2F9787111128069.jpg
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000196s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000055s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000043s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013807s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000113s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000157s ]
+
+[ 2014-01-29T23:28:14+08:00 ] 101.226.61.144 /thinkphp/index.php/Home/Index/weixin?signature=0d1436a1cfbbbd2f06b64f94017bdb9d8f845000&timestamp=1391009292&nonce=1390662385
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.005289s ]
+SQL: SELECT * FROM `sp_book`  [ RunTime:0.000759s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000181s ]
+
+[ 2014-01-29T23:28:17+08:00 ] 123.53.213.182 /thinkphp/index.php/Home/Index/detail?isbn=9787111128069&title=C%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%AF%AD%E8%A8%80&author=%EF%BC%88%E7%BE%8E%EF%BC%89Brian+W.+Kernighan++++++++++++++++++++++++++++++++++++%EF%BC%88%E7%BE%8E%EF%BC%89Dennis+M.+Ritchie&translator=%E5%BE%90%E5%AE%9D%E6%96%87&publisher=%E6%9C%BA%E6%A2%B0%E5%B7%A5%E4%B8%9A%E5%87%BA%E7%89%88%E7%A4%BE&publish_time=2004-1&price=30.00&page_num=258&zhuangzhen=%E5%B9%B3%E8%A3%85&introduct=%0A++++%3Cp%3E%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%8F%91%E5%B1%95%E7%9A%84%E5%8E%86%E5%8F%B2%E4%B8%8A%EF%BC%8C%E6%B2%A1%E6%9C%89%E5%93%AA%E4%B8%80%E7%A7%8D%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%AF%AD%E8%A8%80%E5%83%8FC%E8%AF%AD%E8%A8%80%E8%BF%99%E6%A0%B7%E5%BA%94%E7%94%A8%E5%B9%BF%E6%B3%9B%E3%80%82%E6%9C%AC%E4%B9%A6%E5%8E%9F%E8%91%97%E5%8D%B3%E4%B8%BAC%E8%AF%AD%E8%A8%80%E7%9A%84%E8%AE%BE%E8%AE%A1%E8%80%85%E4%B9%8B%E4%B8%80Dennis+M.Ritchie%E5%92%8C%E8%91%97%E5%90%8D%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E5%AE%B6Brian+W.Kernighan%E5%90%88%E8%91%97%E7%9A%84%E4%B8%80%E6%9C%AC%E4%BB%8B%E7%BB%8DC%E8%AF%AD%E8%A8%80%E7%9A%84%E6%9D%83%E5%A8%81%E7%BB%8F%E5%85%B8%E8%91%97%E4%BD%9C%E3%80%82%E6%88%91%E4%BB%AC%E7%8E%B0%E5%9C%A8%E8%A7%81%E5%88%B0%E7%9A%84%E5%A4%A7%E9%87%8F%E8%AE%BA%E8%BF%B0C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%9A%84%E6%95%99%E6%9D%90%E5%92%8C%E4%B8%93%E8%91%97%E5%9D%87%E4%BB%A5%E6%AD%A4%E4%B9%A6%E4%B8%BA%E8%93%9D%E6%9C%AC%E3%80%82%E5%8E%9F%E8%91%97%E7%AC%AC1%E7%89%88%E4%B8%AD%E4%BB%8B%E7%BB%8D%E7%9A%84C%E8%AF%AD%E8%A8%80%E6%88%90%E4%B8%BA%E5%90%8E%E6%9D%A5%E5%B9%BF%E6%B3%9B%E4%BD%BF%E7%94%A8%E7%9A%84C%E8%AF%AD%E8%A8%80%E7%89%88%E6%9C%AC%E2%80%94%E2%80%94%E6%A0%87%E5%87%86C%E7%9A%84%E5%9F%BA%E7%A1%80%E3%80%82%E4%BA%BA%E4%BB%AC%E7%86%9F%E7%9F%A5%E7%9A%84%E2%80%9Chello%2CWorld%26%2334%3B%E7%A8%8B%E5%BA%8F%E5%B0%B1%E6%98%AF%E7%94%B1%E6%9C%AC%E4%B9%A6%E9%A6%96%E6%AC%A1%E5%BC%95%E5%85%A5%E7%9A%84%EF%BC%8C%E7%8E%B0%E5%9C%A8%EF%BC%8C%E8%BF%99%E4%B8%80%E7%A8%8B%E5%BA%8F%E5%B7%B2%E7%BB%8F%E6%88%90%E4%B8%BA%E4%BC%97%E5%A4%9A%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8%E7%9A%84%E7%AC%AC%E4%B8%80%E8%AF%BE%E3%80%82%3C%2Fp%3E++++%3Cp%3E%E5%8E%9F%E8%91%97%E7%AC%AC2%E7%89%88%E6%A0%B9%E6%8D%AE1987%E5%B9%B4%E5%88%B6%E5%AE%9A%E7%9A%84ANSIC%E6%A0%87%E5%87%86%E5%81%9A%E4%BA%86%E9%80%82%E5%BD%93%E7%9A%84%E4%BF%AE%E8%AE%A2%EF%BC%8E%E5%BC%95%E5%85%A5%E4%BA%86%E6%9C%80%E6%96%B0%E7%9A%84%E8%AF%AD%E8%A8%80%E5%BD%A2%E5%BC%8F%EF%BC%8C%E5%B9%B6%E5%A2%9E%E5%8A%A0%E4%BA%86%E6%96%B0%E7%9A%84%E7%A4%BA%E4%BE%8B%EF%BC%8C%E9%80%9A%E8%BF%87%E7%AE%80%E6%B4%81%E7%9A%84%E6%8F%8F%E8%BF%B0%E3%80%81%E5%85%B8%E5%9E%8B%E7%9A%84%E7%A4%BA%E4%BE%8B%EF%BC%8C%E4%BD%9C%E8%80%85%E5%85%A8%E9%9D%A2%E3%80%81%E7%B3%BB%E7%BB%9F%E3%80%81%E5%87%86%E7%A1%AE%E5%9C%B0%E8%AE%B2%E8%BF%B0%E4%BA%86C%E8%AF%AD%E8%A8%80%E7%9A%84%E5%90%84%E4%B8%AA%E7%89%B9%E6%80%A7%E4%BB%A5%E5%8F%8A%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%96%B9%E6%B3%95%E3%80%82%E5%AF%B9%E4%BA%8E%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BB%8E%E4%B8%9A%E4%BA%BA%E5%91%98%E6%9D%A5%E8%AF%B4%EF%BC%8C%E3%80%8AC%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%AF%AD%E8%A8%80%E3%80%8B%E6%98%AF%E4%B8%80%E6%9C%AC%E5%BF%85%E8%AF%BB%E7%9A%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%AF%AD+%E8%A8%80%E6%96%B9%E9%9D%A2%E7%9A%84%E5%8F%82%E8%80%83%E4%B9%A6%E3%80%82%3C%2Fp%3E&pic_name=http%3A%2F%2F123.53.213.182%2Fthinkphp%2FPublic%2Fimg%2Flpic%2F9787111128069.jpg
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000030s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000061s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000084s ]
+
+[ 2014-01-29T23:31:30+08:00 ] 101.226.61.144 /thinkphp/index.php/Home/Index/weixin?signature=da01af27dc94399707d8cf66b1a6efb2b4a0b0b1&timestamp=1391009489&nonce=1390481122
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000178s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000051s ]
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.005303s ]
+SQL: SELECT * FROM `sp_book`  [ RunTime:0.000770s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000182s ]
+
+[ 2014-01-29T23:31:39+08:00 ] 123.53.213.182 /thinkphp/index.php/Home/Index/detail?isbn=9787111135104&title=%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E7%9A%84%E6%9E%84%E9%80%A0%E5%92%8C%E8%A7%A3%E9%87%8A&author=Harold+Abelson++++++++++++++++++++++++++++++++++++Gerald+Jay+Sussman++++++++++++++++++++++++++++++++++++Julie+Sussman&translator=%E8%A3%98%E5%AE%97%E7%87%95&publisher=%E6%9C%BA%E6%A2%B0%E5%B7%A5%E4%B8%9A%E5%87%BA%E7%89%88%E7%A4%BE&publish_time=2004-2&price=45.00&page_num=473&zhuangzhen=%E7%AE%80%E8%A3%9D%E6%9C%AC&introduct=%0A++++%3Cp%3E%E3%80%8A%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E7%9A%84%E6%9E%84%E9%80%A0%E5%92%8C%E8%A7%A3%E9%87%8A%28%E5%8E%9F%E4%B9%A6%E7%AC%AC2%E7%89%88%29%E3%80%8B1984%E5%B9%B4%E5%87%BA%E7%89%88%EF%BC%8C%E6%88%90%E5%9E%8B%E4%BA%8E%E7%BE%8E%E5%9B%BD%E9%BA%BB%E7%9C%81%E7%90%86%E5%B7%A5%E5%AD%A6%E9%99%A2%28MIT%29%E5%A4%9A%E5%B9%B4%E4%BD%BF%E7%94%A8%E7%9A%84%E4%B8%80%E6%9C%AC%E6%95%99%E6%9D%90%EF%BC%8C1996%E5%B9%B4%E4%BF%AE%E8%AE%A2%E4%B8%BA%E7%AC%AC2%E7%89%88%E3%80%82%E5%9C%A8%E8%BF%87%E5%8E%BB%E7%9A%84%E4%BA%8C%E5%8D%81%E5%A4%9A%E5%B9%B4%E9%87%8C%EF%BC%8C%E3%80%8A%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E7%9A%84%E6%9E%84%E9%80%A0%E5%92%8C%E8%A7%A3%E9%87%8A%28%E5%8E%9F%E4%B9%A6%E7%AC%AC2%E7%89%88%29%E3%80%8B%E5%AF%B9%E4%BA%8E%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E7%9A%84%E6%95%99%E8%82%B2%E8%AE%A1%E5%88%92%E4%BA%A7%E7%94%9F%E4%BA%86%E6%B7%B1%E5%88%BB%E7%9A%84%E5%BD%B1%E5%93%8D%E3%80%82%E7%AC%AC2%E7%89%88%E4%B8%AD%E5%A4%A7%E9%83%A8%E5%88%86%E9%87%8D%E8%A6%81%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%B3%BB%E7%BB%9F%E9%83%BD%E9%87%8D%E6%96%B0%E4%BF%AE%E6%94%B9%E5%B9%B6%E5%81%9A%E8%BF%87%E6%B5%8B%E8%AF%95%EF%BC%8C%E5%8C%85%E6%8B%AC%E5%90%84%E7%A7%8D%E8%A7%A3%E9%87%8A%E5%99%A8%E5%92%8C%E7%BC%96%E8%AF%91%E5%99%A8%E3%80%82%E4%BD%9C%E8%80%85%E6%A0%B9%E6%8D%AE%E5%85%B6%E5%90%8E%E5%8D%81%E4%BD%99%E5%B9%B4%E7%9A%84%E6%95%99%E5%AD%A6%E5%AE%9E%E8%B7%B5%EF%BC%8C%E8%BF%98%E5%AF%B9%E5%85%B6%E4%BB%96%E8%AE%B8%E5%A4%9A%E7%BB%86%E8%8A%82%E5%81%9A%E4%BA%86%E7%9B%B8%E5%BA%94%E7%9A%84%E4%BF%AE%E6%94%B9%E3%80%82%3C%2Fp%3E++++%3Cp%3E%3C%2Fp%3E++++%3Cp%3E%E6%B5%B7%E6%8A%A5%EF%BC%9A%3C%2Fp%3E&pic_name=http%3A%2F%2F123.53.213.182%2Fthinkphp%2FPublic%2Fimg%2Flpic%2F9787111135104.jpg
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000185s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000043s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008537s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000063s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000088s ]
+

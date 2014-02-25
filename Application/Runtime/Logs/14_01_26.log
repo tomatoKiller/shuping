@@ -1,0 +1,328 @@
+[ 2014-01-26T11:54:35+08:00 ] ::1 /thinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000151s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000032s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000023s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000062s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000085s ]
+
+[ 2014-01-26T11:54:40+08:00 ] ::1 /thinkphp/index.php/Home
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000033s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000022s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000064s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000083s ]
+
+[ 2014-01-26T11:54:46+08:00 ] ::1 /thinkphp/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000036s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000023s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000457s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000061s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000083s ]
+
+[ 2014-01-26T11:54:52+08:00 ] ::1 /thinkphp/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000032s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000024s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000474s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000066s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000090s ]
+
+[ 2014-01-26T14:50:26+08:00 ] ::1 /thinkphp/index.php/Home/Index/hello
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000121s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000099s ]
+
+[ 2014-01-26T16:21:26+08:00 ] ::1 /thinkphp/index.php/Home/Index/hello.html
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000159s ]
+
+[ 2014-01-26T17:26:25+08:00 ] ::1 /thinkphp/index.php/Home/City/adf
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000128s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000107s ]
+
+[ 2014-01-26T17:26:32+08:00 ] ::1 /thinkphp/index.php/Home/City/
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000180s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000137s ]
+
+[ 2014-01-26T17:31:46+08:00 ] ::1 /thinkphp/index.php/Home/aity/
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000155s ]
+
+[ 2014-01-26T17:31:58+08:00 ] ::1 /thinkphp/index.php/Home/aity/
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000133s ]
+
+[ 2014-01-26T17:32:05+08:00 ] ::1 /thinkphp/index.php/Home/aity/sfsdfdsf
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000037s ]
+ERR: 非法操作:sfsdfdsf
+
+[ 2014-01-26T20:32:20+08:00 ] ::1 /thinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000119s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000042s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000037s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000064s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000088s ]
+
+[ 2014-01-26T20:32:52+08:00 ] ::1 /thinkphp/index.php/Home/Index/hello
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000029s ]
+SQL: select * from sp_book [ RunTime:0.050689s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000165s ]
+
+[ 2014-01-26T20:32:57+08:00 ] ::1 /thinkphp/index.php/Home/Index/hello
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000121s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000036s ]
+SQL: select * from sp_book [ RunTime:0.000628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000197s ]
+
+[ 2014-01-26T22:35:02+08:00 ] ::1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000055s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000023s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000772s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000131s ]
+
+[ 2014-01-26T22:35:37+08:00 ] ::1 /thinkphp/index.php/Home/Index/hello
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000034s ]
+SQL: SELECT * FROM `sp_`  [ RunTime:0.000715s ]
+ERR: 1146:Table 'shuping.sp_' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `sp_` 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000214s ]
+
+[ 2014-01-26T22:35:42+08:00 ] ::1 /thinkphp/index.php/Home/Index/hello
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000040s ]
+SQL: SELECT * FROM `sp_`  [ RunTime:0.000590s ]
+ERR: 1146:Table 'shuping.sp_' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `sp_` 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000206s ]
+
+[ 2014-01-26T22:36:33+08:00 ] ::1 /thinkphp/index.php/Home/Index/hello
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000106s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000033s ]
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.057673s ]
+SQL: SELECT * FROM `sp_book`  [ RunTime:0.001575s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000214s ]
+
+[ 2014-01-26T22:36:38+08:00 ] ::1 /thinkphp/index.php/Home/Index/hello
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000157s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000032s ]
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.004224s ]
+SQL: SELECT * FROM `sp_book`  [ RunTime:0.000571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000209s ]
+

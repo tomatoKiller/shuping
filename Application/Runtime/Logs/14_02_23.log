@@ -1,0 +1,2463 @@
+[ 2014-02-23T09:47:59+08:00 ] ::1 /thinkphp/index.php/Home/
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000125s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000036s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.034735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034808s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000066s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2014-02-23T09:53:54+08:00 ] ::1 /thinkphp/index.php/Digg/
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000168s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000055s ]
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.004284s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name_big`,`pic_name_small`) VALUES ('算法导论','[美] Thomas H.Cormen                   /                 Charles E.Leiserson                   /                 Ronald L.Rivest                   /                 Clifford Stein','潘金贵 等',85,'机械工业出版社','2006-9',754,'平装','9787111187776','\n    <p>这本书深入浅出，全面地介绍了计算机算法。对每一个算法的分析既易于理解又十分有趣，并保持了数学严谨性。本书的设计目标全面，适用于多种用途。涵盖的内容有：算法在计算中的作用，概率分析和随机算法的介绍。书中专门讨论了线性规划，介绍了动态规划的两个应用，随机化和线性规划技术的近似算法等，还有有关递归求解、快速排序中用到的划分方法与期望线性时间顺序统计算法，以及对贪心算法元素的讨论。此书还介绍了对强连通子图算法正确性的证明，对哈密顿回路和子集求和问题的NP完全性的证明等内容。全书提供了900多个练习题和思考题以及叙述较为详细的实例研究。</p>','/thinkphp/Public/img/lpic/9787111187776.jpg','/thinkphp/Public/img/mpic/9787111187776.jpg') [ RunTime:0.036894s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name_big`,`pic_name_small`) VALUES ('计算机程序的构造和解释','Harold Abelson                   /                 Gerald Jay Sussman                   /                 Julie Sussman','裘宗燕',45,'机械工业出版社','2004-2',473,'简裝本','9787111135104','\n    <p>《计算机程序的构造和解释(原书第2版)》1984年出版，成型于美国麻省理工学院(MIT)多年使用的一本教材，1996年修订为第2版。在过去的二十多年里，《计算机程序的构造和解释(原书第2版)》对于计算机科学的教育计划产生了深刻的影响。第2版中大部分重要程序设计系统都重新修改并做过测试，包括各种解释器和编译器。作者根据其后十余年的教学实践，还对其他许多细节做了相应的修改。</p>    <p></p>    <p>海报：</p>','/thinkphp/Public/img/lpic/9787111135104.jpg','/thinkphp/Public/img/mpic/9787111135104.jpg') [ RunTime:0.028099s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name_big`,`pic_name_small`) VALUES ('深入理解计算机系统','Randal E.Bryant                   /                 David O&#39;Hallaron','龚奕利                   /                 雷迎春',85,'中国电力','2004-5-1',873,'平装(无盘)','9787508321752','\n    <p>从程序员的视角，看计算机系统！</p>    <p>本书适用于那些想要写出更快、更可靠程序的程序员。通过掌握程序是如何映射到系统上，以及程序是如何执行的，读者能够更好的理解程序的行为为什么是这样的，以及效率低下是如何造成的。粗略来看，计算机系统包括处理器和存储器硬件、编译器、操作系统和网络互连环境。而通过程序员的视角，读者可以清晰地明白学习计算机系统的内部工作原理会对他们今后作为计算机科学研究者和工程师的工作有进一步的帮助。它还有助于为进一步学习计算机体系结构、操作系统、编译器和网络互连做好准备。</p>    <p>本书的主要论题包括：数据表示、C程序的机器级表示、处理器结构，程序优化、存储器层次结构、链接、异常控制流、虚拟存储器和存储器管理、系统级I/O、网络编程和并发编程。书中所覆盖的内容主要是这些方面是如何影响应用和系统程序员的。例如，在讲述数据表示时，本书说明了用来表示数字的表示方法是有限的，它能够近似地表示整数和实数，但是这种表示方法是有限制的，程序员必须了解。在讲述高速缓存时，本书讨论了矩阵代码中的循环变量的顺序是如何影响程序的性能的。在讨论网络互连时，本书描述了并发服务器如何能有效地处理来自多个客户端的请求。</p>    <p>本书基于Intel兼容（IA32）机器，在Unix或者相关的操作系统（例如，Linux）上执行C程序。虽然书中包括了一些帮助读者将Java转化成C的提示，但是还是要求读者对C或者C++有一定的了解。</p>    <p>您可以通过本书的Web网站www.csapp.cs.cmu.edu获得完整的资料，包括实验和作业，授课笔记和代码示例。</p>    <p>本书英文版久负盛名，被众多专业人士称为“最伟大的计算机教材”之一，著名的美国卡内基梅隆大学计算机科学系一直将本书作为教材使用，程序员眼中的透彻讲述计算机系统的扛鼎之作。作者Randal E. Bryant是卡耐基梅隆大学的计算机科学系主任，ACM和IEEE双院士（Fellow），其研究成果多次获得ACM和IEEE颁发的大奖。</p>    <p>本书共分十三章，分别介绍了信息的表示和处理、程序的机器级表示、处理器体系结构、存储器层次结构、静态和动态链接、虚拟存储器、系统级I/O、网络编程和并发编程等精彩内容。其目的是解释计算机系统的所有本质概念，并向读者展示这些概念是如何实际地影响应用程序的正确性、性能和实用性。与其他主要针对系统构造人员的系统类书籍不同，这本书是写给程序员的，是从程序员的角度来描述的。本书为软件和硬件之间搭起了一个桥梁，它给出了一种帮助读者分别从硬件和软件的角度去理解一个程序及其行为的途径，这也填补了国内计算机系统教学中的一个空白。本书的最大优点是帮助读者理解概念，让读者很清楚地在脑海中构造一个层次型的计算机系统，从最低层数据在内存中的表示（如我们一直陌生的浮点数表示），到流水线指令的构成，到虚拟存储器，到编译系统，到动态加载库，到最后的用户应用。</p>    <p>本书提供了大量的例子和练习及部分答案。尤其值得一提的是，对于每一个基本概念都有相应的笔头或程序试验，加深读者的理解。</p>','/thinkphp/Public/img/lpic/9787508321752.jpg','/thinkphp/Public/img/mpic/9787508321752.jpg') [ RunTime:0.031645s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name_big`,`pic_name_small`) VALUES ('代码大全（第2版）','[美] 史蒂夫·迈克康奈尔','金戈                   /                 汤凌                   /                 陈硕                   /                 张菲 译                   /                 裘宗燕 审校',128,'电子工业出版社','2006-3',944,'平装','9787121022982','\n    <p>第2版的《代码大全》是著名IT畅销书作者史蒂夫·迈克康奈尔11年前的经典著作的全新演绎：第2版不是第一版的简单修订增补，而是完全进行了重写；增加了很多与时俱进的内容。这也是一本完整的软件构建手册，涵盖了软件构建过程中的所有细节。它从软件质量和编程思想等方面论述了软件构建的各个问题，并详细论述了紧跟潮流的新技术、高屋建瓴的观点、通用的概念，还含有丰富而典型的程序示例。这本书中所论述的技术不仅填补了初级与高级编程技术之间的空白，而且也为程序员们提供了一个有关编程技巧的信息来源。这本书对经验丰富的程序员、技术带头人、自学的程序员及几乎不懂太多编程技巧的学生们都是大有裨益的。可以说，无论是什么背景的读者，阅读这本书都有助于在更短的时间内、更容易地写出更好的程序。</p>','/thinkphp/Public/img/lpic/9787121022982.jpg','/thinkphp/Public/img/mpic/9787121022982.jpg') [ RunTime:0.032664s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name_big`,`pic_name_small`) VALUES ('C程序设计语言','（美）Brian W. Kernighan                   /                 （美）Dennis M. Ritchie','徐宝文',30,'机械工业出版社','2004-1',258,'平装','9787111128069','\n    <p>在计算机发展的历史上，没有哪一种程序设计语言像C语言这样应用广泛。本书原著即为C语言的设计者之一Dennis M.Ritchie和著名计算机科学家Brian W.Kernighan合著的一本介绍C语言的权威经典著作。我们现在见到的大量论述C语言程序设计的教材和专著均以此书为蓝本。原著第1版中介绍的C语言成为后来广泛使用的C语言版本——标准C的基础。人们熟知的“hello,World&#34;程序就是由本书首次引入的，现在，这一程序已经成为众多程序设计语言入门的第一课。</p>    <p>原著第2版根据1987年制定的ANSIC标准做了适当的修订．引入了最新的语言形式，并增加了新的示例，通过简洁的描述、典型的示例，作者全面、系统、准确地讲述了C语言的各个特性以及程序设计的基本方法。对于计算机从业人员来说，《C程序设计语言》是一本必读的程序设计语 言方面的参考书。</p>','/thinkphp/Public/img/lpic/9787111128069.jpg','/thinkphp/Public/img/mpic/9787111128069.jpg') [ RunTime:0.034403s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name_big`,`pic_name_small`) VALUES ('编程珠玑','Jon Bentley','黄倩                   /                 钱丽艳',39,'人民邮电出版社','2008-10',228,'平装','9787115179289','\n    <p>本书是计算机科学方面的经典名著。书的内容围绕程序设计人员面对的一系列实际问题展开。作者Jon Bentley 以其独有的洞察力和创造力，引导读者理解这些问题并学会解决方法，而这些正是程序员实际编程生涯中至关重要的。本书的特色是通过一些精心设计的有趣而又颇具指导意义的程序，对实用程序设计技巧及基本设计原则进行了透彻而睿智的描述，为复杂的编程问题提供了清晰而完备的解决思路。本书对各个层次的程序员都具有很高的阅读价值。.</p>    <p>多年以来，当程序员们推选出最心爱的计算机图书时，《编程珠玑》总是位列前列。正如自然界里珍珠出自细沙对牡蛎的磨砺，计算机科学大师Jon Bentley以其独有的洞察力和创造力，从磨砺程序员的实际问题中凝结出一篇篇不朽的编程“珠玑”，成为世界计算机界名刊《ACM通讯》历史上最受欢迎的专栏，最终结集为两部不朽的计算机科学经典名著，影响和激励着一代又一代程序员和计算机科学工作者。本书为第一卷，主要讨论计算机科学中最本质的问题：如何正确选择和高效地实现算法。..</p>    <p>在书中，作者选取许多具有典型意义的复杂编程和算法问题，生动描绘了历史上众大师们在探索解决方案中发生的轶事、走过的弯路和不断精益求精的历程，引导读者像真正的程序员和软件工程师那样富于创新性地思考，并透彻阐述和总结了许多独特而精妙的设计原则、思考和解决问题的方法以及实用程序设计技巧。解决方案的代码均以C/C++语言编写，不仅有趣，而且有很大的实战示范意义。每章后所附习题极具挑战性和启发性，书末给出了简洁的解答。...</p>','/thinkphp/Public/img/lpic/9787115179289.jpg','/thinkphp/Public/img/mpic/9787115179289.jpg') [ RunTime:0.029653s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name_big`,`pic_name_small`) VALUES ('UNIX环境高级编程','W.Richard Stevens                   /                 Stephen A.Rago','尤晋元                   /                 张亚英                   /                 戚正伟',99,'人民邮电出版社','2006年',780,'平装','9787115147318','\n    <p>本书是被誉为UNIX编程“圣经”的Advanced Programming in the UNIX Environment一书的更新版。在本书第1版出版后的十几年中，UNIX行业已经有了巨大的变化，特别是影响UNIX编程接口的有关标准变化很大。本书在保持了前一版风格的基础上，根据最新的标准对内容进行了修订和增补，反映了最新的技术发展。书中除了介绍UNIX文件和目录、标准I/O库、系统数据文件和信息、进程环境、进程控制、进程关系、信号、线程、线程控制、守护进程、各种I/O、进程间通信、网络IPC、伪终端等方面的内容，还在此基础上介绍了多个应用示例，包括如何创建数据库函数库以及如何与网络打印机通信等。此外，还在附录中给出了函数原型和部分习题的答案。\r</p>    <p>    本书内容权威，概念清晰，阐述精辟，对于所有层次UNIX程序员都是一本不可或缺的参考书。</p>','/thinkphp/Public/img/lpic/9787115147318.jpg','/thinkphp/Public/img/mpic/9787115147318.jpg') [ RunTime:0.028359s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name_big`,`pic_name_small`) VALUES ('C++ Primer中文版','Stanley B.Lippman                   /                 Josée LaJoie                   /                 Barbara E.Moo','李师贤                   /                 蒋爱军                   /                 梅晓勇                   /                 林瑛',99,'人民邮电出版社','2006',745,'16开','9787115145543','\n    <p>本书是久负盛名的C++经典教程，其内容是C++大师Stanley B. Lippman丰富的实践经验和C++标准委员会原负责人Josée Lajoie对C++标准深入理解的完美结合，已经帮助全球无数程序员学会了C++。本版对前一版进行了彻底的修订，内容经过了重新组织，更加入了C++ 先驱Barbara E. Moo在C++教学方面的真知灼见。既显著改善了可读性，又充分体现了C++语言的最新进展和当前的业界最佳实践。书中不但新增大量教学辅助内容，用于强调重要的知识点，提醒常见的错误，推荐优秀的编程实践，给出使用提示，还包含大量来自实战的示例和习题。对C++基本概念和技术全面而且权威的阐述，对现代C++编程风格的强调，使本书成为C++初学者的最佳指南；对于中高级程序员，本书也是不可或缺的参考书。本书的前言阐述了 第4版和前一版的不同之处。</p>','/thinkphp/Public/img/lpic/9787115145543.jpg','/thinkphp/Public/img/mpic/9787115145543.jpg') [ RunTime:0.043342s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name_big`,`pic_name_small`) VALUES ('黑客与画家','[美] Paul Graham','阮一峰',49,'人民邮电出版社','2011-4',264,'平装','9787115249494','\n    <p>本书是硅谷创业之父Paul Graham 的文集，主要介绍黑客即优秀程序员的爱好和动机，讨论黑客成长、黑客对世界的贡献以及编程语言和黑客工作方法等所有对计算机时代感兴趣的人的一些话题。书中的内容不但有助于了解计算机编程的本质、互联网行业的规则，还会帮助读者了解我们这个时代，迫使读者独立思考。</p>    <p>本书适合所有程序员和互联网创业者，也适合一切对计算机行业感兴趣的读者。</p>','/thinkphp/Public/img/lpic/9787115249494.jpg','/thinkphp/Public/img/mpic/9787115249494.jpg') [ RunTime:0.047988s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name_big`,`pic_name_small`) VALUES ('编码的奥秘','Charles Petzold','伍卫国                   /                 王宣政                   /                 孙燕妮',24,'中国标准出版社','2000-9-1',280,'平装','9787111080787','\n    <p>渴望交流是大多数人的天性。在本书中，“编码”通常指一种在人和机器之间进行信息转换的系统。换句话说、编码即是交流。有时我们将编码看得很神秘，其实大多数编码并非都是这样。大多数的编码都需要被很好地理解，因为它们是人类交流的基础。――《编码的奥秘》</p>    <p>手电筒、英国人入侵、黑色的猫和跷跷板与计算机有什么必然联系？本书向我们展示了使用语言的一些直观方法并创造新的方法来进行相互之间的交流。此书使我们明白了这种创造性――以及我们人类对交流的迫切需求――已经促进了过去两个世纪的革新</p>    <p>在本书中，作者Charles Petzold用常见的对象和诸如布莱叶育文、摩尔斯电码之类大家熟悉的语言系统，为那些曾经想知道计算机和其他智能机器内部“生命”奥秘的人们编排了一个生动的叙述。</p>    <p>本书由灵活的图解和生动的故事组成。沿着作者的这种介绍思路，通过本书的学习你将会发现你已经获得了一个理解今天的PC、数字多媒体和因特网的真实背景。无论你的技术水平怎样，本书都将会使你陶醉，并且很可能唤醒读者参与计算机事业。</p>','/thinkphp/Public/img/lpic/9787111080787.jpg','/thinkphp/Public/img/mpic/9787111080787.jpg') [ RunTime:0.041201s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name_big`,`pic_name_small`) VALUES ('UNIX编程艺术','Eric S. Raymond','姜宏                   /                 何源                   /                 蔡晓俊',59,'电子工业出版社','2006-2',525,'平装','9787121021169','\n    <p>本书主要介绍了Unix系统领域中的设计和开发哲学、思想文化体系、原则与经验，由公认的Unix编程大师、开源运动领袖人物之一Eric S. Raymond倾力多年写作而成。包括Unix设计者在内的多位领域专家也为本书贡献了宝贵的内容。本书内容涉及社群文化、软件开发设计与实现，覆盖面广、内容深邃，完全展现了作者极其深厚的经验积累和领域智慧。</p>','/thinkphp/Public/img/lpic/9787121021169.jpg','/thinkphp/Public/img/mpic/9787121021169.jpg') [ RunTime:0.068207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000172s ]
+
+[ 2014-02-23T09:54:27+08:00 ] ::1 /thinkphp/index.php/Home/
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000068s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000072s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000087s ]
+
+[ 2014-02-23T09:54:37+08:00 ] ::1 /thinkphp/index.php/Home/Index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000135s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000040s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.051527s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.000690s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000161s ]
+
+[ 2014-02-23T09:55:35+08:00 ] ::1 /thinkphp/index.php/Home/Index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000032s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.004636s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.000844s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000048s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016957s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000028s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000113s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000160s ]
+
+[ 2014-02-23T10:00:50+08:00 ] ::1 /thinkphp/index.php/Digg
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000123s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000038s ]
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.004565s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name_big`,`pic_name_small`) VALUES ('算法导论','[美] Thomas H.Cormen / Charles E.Leiserson / Ronald L.Rivest / Clifford Stein','潘金贵 等',85,'机械工业出版社','2006-9',754,'平装','9787111187776','\n    <p>这本书深入浅出，全面地介绍了计算机算法。对每一个算法的分析既易于理解又十分有趣，并保持了数学严谨性。本书的设计目标全面，适用于多种用途。涵盖的内容有：算法在计算中的作用，概率分析和随机算法的介绍。书中专门讨论了线性规划，介绍了动态规划的两个应用，随机化和线性规划技术的近似算法等，还有有关递归求解、快速排序中用到的划分方法与期望线性时间顺序统计算法，以及对贪心算法元素的讨论。此书还介绍了对强连通子图算法正确性的证明，对哈密顿回路和子集求和问题的NP完全性的证明等内容。全书提供了900多个练习题和思考题以及叙述较为详细的实例研究。</p>','/thinkphp/Public/img/lpic/9787111187776.jpg','/thinkphp/Public/img/mpic/9787111187776.jpg') [ RunTime:0.041699s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name_big`,`pic_name_small`) VALUES ('计算机程序的构造和解释','Harold Abelson / Gerald Jay Sussman / Julie Sussman','裘宗燕',45,'机械工业出版社','2004-2',473,'简裝本','9787111135104','\n    <p>《计算机程序的构造和解释(原书第2版)》1984年出版，成型于美国麻省理工学院(MIT)多年使用的一本教材，1996年修订为第2版。在过去的二十多年里，《计算机程序的构造和解释(原书第2版)》对于计算机科学的教育计划产生了深刻的影响。第2版中大部分重要程序设计系统都重新修改并做过测试，包括各种解释器和编译器。作者根据其后十余年的教学实践，还对其他许多细节做了相应的修改。</p>    <p></p>    <p>海报：</p>','/thinkphp/Public/img/lpic/9787111135104.jpg','/thinkphp/Public/img/mpic/9787111135104.jpg') [ RunTime:0.044409s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name_big`,`pic_name_small`) VALUES ('深入理解计算机系统','Randal E.Bryant / David O&#39;Hallaron','龚奕利 / 雷迎春',85,'中国电力','2004-5-1',873,'平装(无盘)','9787508321752','\n    <p>从程序员的视角，看计算机系统！</p>    <p>本书适用于那些想要写出更快、更可靠程序的程序员。通过掌握程序是如何映射到系统上，以及程序是如何执行的，读者能够更好的理解程序的行为为什么是这样的，以及效率低下是如何造成的。粗略来看，计算机系统包括处理器和存储器硬件、编译器、操作系统和网络互连环境。而通过程序员的视角，读者可以清晰地明白学习计算机系统的内部工作原理会对他们今后作为计算机科学研究者和工程师的工作有进一步的帮助。它还有助于为进一步学习计算机体系结构、操作系统、编译器和网络互连做好准备。</p>    <p>本书的主要论题包括：数据表示、C程序的机器级表示、处理器结构，程序优化、存储器层次结构、链接、异常控制流、虚拟存储器和存储器管理、系统级I/O、网络编程和并发编程。书中所覆盖的内容主要是这些方面是如何影响应用和系统程序员的。例如，在讲述数据表示时，本书说明了用来表示数字的表示方法是有限的，它能够近似地表示整数和实数，但是这种表示方法是有限制的，程序员必须了解。在讲述高速缓存时，本书讨论了矩阵代码中的循环变量的顺序是如何影响程序的性能的。在讨论网络互连时，本书描述了并发服务器如何能有效地处理来自多个客户端的请求。</p>    <p>本书基于Intel兼容（IA32）机器，在Unix或者相关的操作系统（例如，Linux）上执行C程序。虽然书中包括了一些帮助读者将Java转化成C的提示，但是还是要求读者对C或者C++有一定的了解。</p>    <p>您可以通过本书的Web网站www.csapp.cs.cmu.edu获得完整的资料，包括实验和作业，授课笔记和代码示例。</p>    <p>本书英文版久负盛名，被众多专业人士称为“最伟大的计算机教材”之一，著名的美国卡内基梅隆大学计算机科学系一直将本书作为教材使用，程序员眼中的透彻讲述计算机系统的扛鼎之作。作者Randal E. Bryant是卡耐基梅隆大学的计算机科学系主任，ACM和IEEE双院士（Fellow），其研究成果多次获得ACM和IEEE颁发的大奖。</p>    <p>本书共分十三章，分别介绍了信息的表示和处理、程序的机器级表示、处理器体系结构、存储器层次结构、静态和动态链接、虚拟存储器、系统级I/O、网络编程和并发编程等精彩内容。其目的是解释计算机系统的所有本质概念，并向读者展示这些概念是如何实际地影响应用程序的正确性、性能和实用性。与其他主要针对系统构造人员的系统类书籍不同，这本书是写给程序员的，是从程序员的角度来描述的。本书为软件和硬件之间搭起了一个桥梁，它给出了一种帮助读者分别从硬件和软件的角度去理解一个程序及其行为的途径，这也填补了国内计算机系统教学中的一个空白。本书的最大优点是帮助读者理解概念，让读者很清楚地在脑海中构造一个层次型的计算机系统，从最低层数据在内存中的表示（如我们一直陌生的浮点数表示），到流水线指令的构成，到虚拟存储器，到编译系统，到动态加载库，到最后的用户应用。</p>    <p>本书提供了大量的例子和练习及部分答案。尤其值得一提的是，对于每一个基本概念都有相应的笔头或程序试验，加深读者的理解。</p>','/thinkphp/Public/img/lpic/9787508321752.jpg','/thinkphp/Public/img/mpic/9787508321752.jpg') [ RunTime:0.088557s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name_big`,`pic_name_small`) VALUES ('代码大全（第2版）','[美] 史蒂夫·迈克康奈尔','金戈 / 汤凌 / 陈硕 / 张菲 译 / 裘宗燕 审校',128,'电子工业出版社','2006-3',944,'平装','9787121022982','\n    <p>第2版的《代码大全》是著名IT畅销书作者史蒂夫·迈克康奈尔11年前的经典著作的全新演绎：第2版不是第一版的简单修订增补，而是完全进行了重写；增加了很多与时俱进的内容。这也是一本完整的软件构建手册，涵盖了软件构建过程中的所有细节。它从软件质量和编程思想等方面论述了软件构建的各个问题，并详细论述了紧跟潮流的新技术、高屋建瓴的观点、通用的概念，还含有丰富而典型的程序示例。这本书中所论述的技术不仅填补了初级与高级编程技术之间的空白，而且也为程序员们提供了一个有关编程技巧的信息来源。这本书对经验丰富的程序员、技术带头人、自学的程序员及几乎不懂太多编程技巧的学生们都是大有裨益的。可以说，无论是什么背景的读者，阅读这本书都有助于在更短的时间内、更容易地写出更好的程序。</p>','/thinkphp/Public/img/lpic/9787121022982.jpg','/thinkphp/Public/img/mpic/9787121022982.jpg') [ RunTime:0.048528s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name_big`,`pic_name_small`) VALUES ('C程序设计语言','（美）Brian W. Kernighan / （美）Dennis M. Ritchie','徐宝文',30,'机械工业出版社','2004-1',258,'平装','9787111128069','\n    <p>在计算机发展的历史上，没有哪一种程序设计语言像C语言这样应用广泛。本书原著即为C语言的设计者之一Dennis M.Ritchie和著名计算机科学家Brian W.Kernighan合著的一本介绍C语言的权威经典著作。我们现在见到的大量论述C语言程序设计的教材和专著均以此书为蓝本。原著第1版中介绍的C语言成为后来广泛使用的C语言版本——标准C的基础。人们熟知的“hello,World&#34;程序就是由本书首次引入的，现在，这一程序已经成为众多程序设计语言入门的第一课。</p>    <p>原著第2版根据1987年制定的ANSIC标准做了适当的修订．引入了最新的语言形式，并增加了新的示例，通过简洁的描述、典型的示例，作者全面、系统、准确地讲述了C语言的各个特性以及程序设计的基本方法。对于计算机从业人员来说，《C程序设计语言》是一本必读的程序设计语 言方面的参考书。</p>','/thinkphp/Public/img/lpic/9787111128069.jpg','/thinkphp/Public/img/mpic/9787111128069.jpg') [ RunTime:0.042972s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name_big`,`pic_name_small`) VALUES ('编程珠玑','Jon Bentley','黄倩 / 钱丽艳',39,'人民邮电出版社','2008-10',228,'平装','9787115179289','\n    <p>本书是计算机科学方面的经典名著。书的内容围绕程序设计人员面对的一系列实际问题展开。作者Jon Bentley 以其独有的洞察力和创造力，引导读者理解这些问题并学会解决方法，而这些正是程序员实际编程生涯中至关重要的。本书的特色是通过一些精心设计的有趣而又颇具指导意义的程序，对实用程序设计技巧及基本设计原则进行了透彻而睿智的描述，为复杂的编程问题提供了清晰而完备的解决思路。本书对各个层次的程序员都具有很高的阅读价值。.</p>    <p>多年以来，当程序员们推选出最心爱的计算机图书时，《编程珠玑》总是位列前列。正如自然界里珍珠出自细沙对牡蛎的磨砺，计算机科学大师Jon Bentley以其独有的洞察力和创造力，从磨砺程序员的实际问题中凝结出一篇篇不朽的编程“珠玑”，成为世界计算机界名刊《ACM通讯》历史上最受欢迎的专栏，最终结集为两部不朽的计算机科学经典名著，影响和激励着一代又一代程序员和计算机科学工作者。本书为第一卷，主要讨论计算机科学中最本质的问题：如何正确选择和高效地实现算法。..</p>    <p>在书中，作者选取许多具有典型意义的复杂编程和算法问题，生动描绘了历史上众大师们在探索解决方案中发生的轶事、走过的弯路和不断精益求精的历程，引导读者像真正的程序员和软件工程师那样富于创新性地思考，并透彻阐述和总结了许多独特而精妙的设计原则、思考和解决问题的方法以及实用程序设计技巧。解决方案的代码均以C/C++语言编写，不仅有趣，而且有很大的实战示范意义。每章后所附习题极具挑战性和启发性，书末给出了简洁的解答。...</p>','/thinkphp/Public/img/lpic/9787115179289.jpg','/thinkphp/Public/img/mpic/9787115179289.jpg') [ RunTime:0.036113s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name_big`,`pic_name_small`) VALUES ('UNIX环境高级编程','W.Richard Stevens / Stephen A.Rago','尤晋元 / 张亚英 / 戚正伟',99,'人民邮电出版社','2006年',780,'平装','9787115147318','\n    <p>本书是被誉为UNIX编程“圣经”的Advanced Programming in the UNIX Environment一书的更新版。在本书第1版出版后的十几年中，UNIX行业已经有了巨大的变化，特别是影响UNIX编程接口的有关标准变化很大。本书在保持了前一版风格的基础上，根据最新的标准对内容进行了修订和增补，反映了最新的技术发展。书中除了介绍UNIX文件和目录、标准I/O库、系统数据文件和信息、进程环境、进程控制、进程关系、信号、线程、线程控制、守护进程、各种I/O、进程间通信、网络IPC、伪终端等方面的内容，还在此基础上介绍了多个应用示例，包括如何创建数据库函数库以及如何与网络打印机通信等。此外，还在附录中给出了函数原型和部分习题的答案。\r</p>    <p>    本书内容权威，概念清晰，阐述精辟，对于所有层次UNIX程序员都是一本不可或缺的参考书。</p>','/thinkphp/Public/img/lpic/9787115147318.jpg','/thinkphp/Public/img/mpic/9787115147318.jpg') [ RunTime:0.046077s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name_big`,`pic_name_small`) VALUES ('C++ Primer中文版','Stanley B.Lippman / Josée LaJoie / Barbara E.Moo','李师贤 / 蒋爱军 / 梅晓勇 / 林瑛',99,'人民邮电出版社','2006',745,'16开','9787115145543','\n    <p>本书是久负盛名的C++经典教程，其内容是C++大师Stanley B. Lippman丰富的实践经验和C++标准委员会原负责人Josée Lajoie对C++标准深入理解的完美结合，已经帮助全球无数程序员学会了C++。本版对前一版进行了彻底的修订，内容经过了重新组织，更加入了C++ 先驱Barbara E. Moo在C++教学方面的真知灼见。既显著改善了可读性，又充分体现了C++语言的最新进展和当前的业界最佳实践。书中不但新增大量教学辅助内容，用于强调重要的知识点，提醒常见的错误，推荐优秀的编程实践，给出使用提示，还包含大量来自实战的示例和习题。对C++基本概念和技术全面而且权威的阐述，对现代C++编程风格的强调，使本书成为C++初学者的最佳指南；对于中高级程序员，本书也是不可或缺的参考书。本书的前言阐述了 第4版和前一版的不同之处。</p>','/thinkphp/Public/img/lpic/9787115145543.jpg','/thinkphp/Public/img/mpic/9787115145543.jpg') [ RunTime:0.049645s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name_big`,`pic_name_small`) VALUES ('黑客与画家','[美] Paul Graham','阮一峰',49,'人民邮电出版社','2011-4',264,'平装','9787115249494','\n    <p>本书是硅谷创业之父Paul Graham 的文集，主要介绍黑客即优秀程序员的爱好和动机，讨论黑客成长、黑客对世界的贡献以及编程语言和黑客工作方法等所有对计算机时代感兴趣的人的一些话题。书中的内容不但有助于了解计算机编程的本质、互联网行业的规则，还会帮助读者了解我们这个时代，迫使读者独立思考。</p>    <p>本书适合所有程序员和互联网创业者，也适合一切对计算机行业感兴趣的读者。</p>','/thinkphp/Public/img/lpic/9787115249494.jpg','/thinkphp/Public/img/mpic/9787115249494.jpg') [ RunTime:0.041520s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name_big`,`pic_name_small`) VALUES ('编码的奥秘','Charles Petzold','伍卫国 / 王宣政 / 孙燕妮',24,'中国标准出版社','2000-9-1',280,'平装','9787111080787','\n    <p>渴望交流是大多数人的天性。在本书中，“编码”通常指一种在人和机器之间进行信息转换的系统。换句话说、编码即是交流。有时我们将编码看得很神秘，其实大多数编码并非都是这样。大多数的编码都需要被很好地理解，因为它们是人类交流的基础。――《编码的奥秘》</p>    <p>手电筒、英国人入侵、黑色的猫和跷跷板与计算机有什么必然联系？本书向我们展示了使用语言的一些直观方法并创造新的方法来进行相互之间的交流。此书使我们明白了这种创造性――以及我们人类对交流的迫切需求――已经促进了过去两个世纪的革新</p>    <p>在本书中，作者Charles Petzold用常见的对象和诸如布莱叶育文、摩尔斯电码之类大家熟悉的语言系统，为那些曾经想知道计算机和其他智能机器内部“生命”奥秘的人们编排了一个生动的叙述。</p>    <p>本书由灵活的图解和生动的故事组成。沿着作者的这种介绍思路，通过本书的学习你将会发现你已经获得了一个理解今天的PC、数字多媒体和因特网的真实背景。无论你的技术水平怎样，本书都将会使你陶醉，并且很可能唤醒读者参与计算机事业。</p>','/thinkphp/Public/img/lpic/9787111080787.jpg','/thinkphp/Public/img/mpic/9787111080787.jpg') [ RunTime:0.046523s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name_big`,`pic_name_small`) VALUES ('UNIX编程艺术','Eric S. Raymond','姜宏 / 何源 / 蔡晓俊',59,'电子工业出版社','2006-2',525,'平装','9787121021169','\n    <p>本书主要介绍了Unix系统领域中的设计和开发哲学、思想文化体系、原则与经验，由公认的Unix编程大师、开源运动领袖人物之一Eric S. Raymond倾力多年写作而成。包括Unix设计者在内的多位领域专家也为本书贡献了宝贵的内容。本书内容涉及社群文化、软件开发设计与实现，覆盖面广、内容深邃，完全展现了作者极其深厚的经验积累和领域智慧。</p>','/thinkphp/Public/img/lpic/9787121021169.jpg','/thinkphp/Public/img/mpic/9787121021169.jpg') [ RunTime:0.033234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000172s ]
+
+[ 2014-02-23T10:00:59+08:00 ] ::1 /thinkphp/index.php/Home
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000149s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000045s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000035s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001036s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000099s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000157s ]
+
+[ 2014-02-23T10:01:04+08:00 ] ::1 /thinkphp/index.php/Home/Index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000030s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.003882s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.000900s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000041s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000199s ]
+
+[ 2014-02-23T10:18:52+08:00 ] ::1 /thinkphp/index.php/Home/Index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000044s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.002345s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.000449s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010994s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000064s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000101s ]
+
+[ 2014-02-23T12:05:43+08:00 ] ::1 /thinkphp/index.php/Home
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T12:06:12+08:00 ] 192.168.1.126 /thinkphp/index.php/Home
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T12:06:32+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.046003s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.001000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T12:06:45+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.000000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-02-23T12:08:18+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T12:10:51+08:00 ] 192.168.1.126 /thinkphp/index.php/Home
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T12:11:10+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/Index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T12:11:49+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/Index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-02-23T12:21:40+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-02-23T12:29:03+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T12:34:03+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T12:35:25+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T12:38:46+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T12:41:58+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T12:43:53+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T12:48:09+08:00 ] ::1 /thinkphp/index.php/Digg
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Digg\Controller\DiggController.class.php 第 12 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Digg\Controller\DiggController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007000s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name_big`,`pic_name_small`) VALUES ('算法导论','[美] Thomas H.Cormen / Charles E.Leiserson / Ronald L.Rivest / Clifford Stein','潘金贵 等',85,'机械工业出版社','2006-9',754,'平装','9787111187776','\n    <p>这本书深入浅出，全面地介绍了计算机算法。对每一个算法的分析既易于理解又十分有趣，并保持了数学严谨性。本书的设计目标全面，适用于多种用途。涵盖的内容有：算法在计算中的作用，概率分析和随机算法的介绍。书中专门讨论了线性规划，介绍了动态规划的两个应用，随机化和线性规划技术的近似算法等，还有有关递归求解、快速排序中用到的划分方法与期望线性时间顺序统计算法，以及对贪心算法元素的讨论。此书还介绍了对强连通子图算法正确性的证明，对哈密顿回路和子集求和问题的NP完全性的证明等内容。全书提供了900多个练习题和思考题以及叙述较为详细的实例研究。</p>','/thinkphp/Public/img/lpic/9787111187776.jpg','/thinkphp/Public/img/mpic/9787111187776.jpg') [ RunTime:0.052003s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name_big`,`pic_name_small`) VALUES ('计算机程序的构造和解释','Harold Abelson / Gerald Jay Sussman / Julie Sussman','裘宗燕',45,'机械工业出版社','2004-2',473,'简裝本','9787111135104','\n    <p>《计算机程序的构造和解释(原书第2版)》1984年出版，成型于美国麻省理工学院(MIT)多年使用的一本教材，1996年修订为第2版。在过去的二十多年里，《计算机程序的构造和解释(原书第2版)》对于计算机科学的教育计划产生了深刻的影响。第2版中大部分重要程序设计系统都重新修改并做过测试，包括各种解释器和编译器。作者根据其后十余年的教学实践，还对其他许多细节做了相应的修改。</p>    <p></p>    <p>海报：</p>','/thinkphp/Public/img/lpic/9787111135104.jpg','/thinkphp/Public/img/mpic/9787111135104.jpg') [ RunTime:0.155008s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name_big`,`pic_name_small`) VALUES ('深入理解计算机系统','Randal E.Bryant / David O&#39;Hallaron','龚奕利 / 雷迎春',85,'中国电力','2004-5-1',873,'平装(无盘)','9787508321752','\n    <p>从程序员的视角，看计算机系统！</p>    <p>本书适用于那些想要写出更快、更可靠程序的程序员。通过掌握程序是如何映射到系统上，以及程序是如何执行的，读者能够更好的理解程序的行为为什么是这样的，以及效率低下是如何造成的。粗略来看，计算机系统包括处理器和存储器硬件、编译器、操作系统和网络互连环境。而通过程序员的视角，读者可以清晰地明白学习计算机系统的内部工作原理会对他们今后作为计算机科学研究者和工程师的工作有进一步的帮助。它还有助于为进一步学习计算机体系结构、操作系统、编译器和网络互连做好准备。</p>    <p>本书的主要论题包括：数据表示、C程序的机器级表示、处理器结构，程序优化、存储器层次结构、链接、异常控制流、虚拟存储器和存储器管理、系统级I/O、网络编程和并发编程。书中所覆盖的内容主要是这些方面是如何影响应用和系统程序员的。例如，在讲述数据表示时，本书说明了用来表示数字的表示方法是有限的，它能够近似地表示整数和实数，但是这种表示方法是有限制的，程序员必须了解。在讲述高速缓存时，本书讨论了矩阵代码中的循环变量的顺序是如何影响程序的性能的。在讨论网络互连时，本书描述了并发服务器如何能有效地处理来自多个客户端的请求。</p>    <p>本书基于Intel兼容（IA32）机器，在Unix或者相关的操作系统（例如，Linux）上执行C程序。虽然书中包括了一些帮助读者将Java转化成C的提示，但是还是要求读者对C或者C++有一定的了解。</p>    <p>您可以通过本书的Web网站www.csapp.cs.cmu.edu获得完整的资料，包括实验和作业，授课笔记和代码示例。</p>    <p>本书英文版久负盛名，被众多专业人士称为“最伟大的计算机教材”之一，著名的美国卡内基梅隆大学计算机科学系一直将本书作为教材使用，程序员眼中的透彻讲述计算机系统的扛鼎之作。作者Randal E. Bryant是卡耐基梅隆大学的计算机科学系主任，ACM和IEEE双院士（Fellow），其研究成果多次获得ACM和IEEE颁发的大奖。</p>    <p>本书共分十三章，分别介绍了信息的表示和处理、程序的机器级表示、处理器体系结构、存储器层次结构、静态和动态链接、虚拟存储器、系统级I/O、网络编程和并发编程等精彩内容。其目的是解释计算机系统的所有本质概念，并向读者展示这些概念是如何实际地影响应用程序的正确性、性能和实用性。与其他主要针对系统构造人员的系统类书籍不同，这本书是写给程序员的，是从程序员的角度来描述的。本书为软件和硬件之间搭起了一个桥梁，它给出了一种帮助读者分别从硬件和软件的角度去理解一个程序及其行为的途径，这也填补了国内计算机系统教学中的一个空白。本书的最大优点是帮助读者理解概念，让读者很清楚地在脑海中构造一个层次型的计算机系统，从最低层数据在内存中的表示（如我们一直陌生的浮点数表示），到流水线指令的构成，到虚拟存储器，到编译系统，到动态加载库，到最后的用户应用。</p>    <p>本书提供了大量的例子和练习及部分答案。尤其值得一提的是，对于每一个基本概念都有相应的笔头或程序试验，加深读者的理解。</p>','/thinkphp/Public/img/lpic/9787508321752.jpg','/thinkphp/Public/img/mpic/9787508321752.jpg') [ RunTime:0.052003s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name_big`,`pic_name_small`) VALUES ('代码大全（第2版）','[美] 史蒂夫·迈克康奈尔','金戈 / 汤凌 / 陈硕 / 张菲 译 / 裘宗燕 审校',128,'电子工业出版社','2006-3',944,'平装','9787121022982','\n    <p>第2版的《代码大全》是著名IT畅销书作者史蒂夫·迈克康奈尔11年前的经典著作的全新演绎：第2版不是第一版的简单修订增补，而是完全进行了重写；增加了很多与时俱进的内容。这也是一本完整的软件构建手册，涵盖了软件构建过程中的所有细节。它从软件质量和编程思想等方面论述了软件构建的各个问题，并详细论述了紧跟潮流的新技术、高屋建瓴的观点、通用的概念，还含有丰富而典型的程序示例。这本书中所论述的技术不仅填补了初级与高级编程技术之间的空白，而且也为程序员们提供了一个有关编程技巧的信息来源。这本书对经验丰富的程序员、技术带头人、自学的程序员及几乎不懂太多编程技巧的学生们都是大有裨益的。可以说，无论是什么背景的读者，阅读这本书都有助于在更短的时间内、更容易地写出更好的程序。</p>','/thinkphp/Public/img/lpic/9787121022982.jpg','/thinkphp/Public/img/mpic/9787121022982.jpg') [ RunTime:0.084005s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name_big`,`pic_name_small`) VALUES ('C程序设计语言','（美）Brian W. Kernighan / （美）Dennis M. Ritchie','徐宝文',30,'机械工业出版社','2004-1',258,'平装','9787111128069','\n    <p>在计算机发展的历史上，没有哪一种程序设计语言像C语言这样应用广泛。本书原著即为C语言的设计者之一Dennis M.Ritchie和著名计算机科学家Brian W.Kernighan合著的一本介绍C语言的权威经典著作。我们现在见到的大量论述C语言程序设计的教材和专著均以此书为蓝本。原著第1版中介绍的C语言成为后来广泛使用的C语言版本——标准C的基础。人们熟知的“hello,World&#34;程序就是由本书首次引入的，现在，这一程序已经成为众多程序设计语言入门的第一课。</p>    <p>原著第2版根据1987年制定的ANSIC标准做了适当的修订．引入了最新的语言形式，并增加了新的示例，通过简洁的描述、典型的示例，作者全面、系统、准确地讲述了C语言的各个特性以及程序设计的基本方法。对于计算机从业人员来说，《C程序设计语言》是一本必读的程序设计语 言方面的参考书。</p>','/thinkphp/Public/img/lpic/9787111128069.jpg','/thinkphp/Public/img/mpic/9787111128069.jpg') [ RunTime:0.046003s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name_big`,`pic_name_small`) VALUES ('编程珠玑','Jon Bentley','黄倩 / 钱丽艳',39,'人民邮电出版社','2008-10',228,'平装','9787115179289','\n    <p>本书是计算机科学方面的经典名著。书的内容围绕程序设计人员面对的一系列实际问题展开。作者Jon Bentley 以其独有的洞察力和创造力，引导读者理解这些问题并学会解决方法，而这些正是程序员实际编程生涯中至关重要的。本书的特色是通过一些精心设计的有趣而又颇具指导意义的程序，对实用程序设计技巧及基本设计原则进行了透彻而睿智的描述，为复杂的编程问题提供了清晰而完备的解决思路。本书对各个层次的程序员都具有很高的阅读价值。.</p>    <p>多年以来，当程序员们推选出最心爱的计算机图书时，《编程珠玑》总是位列前列。正如自然界里珍珠出自细沙对牡蛎的磨砺，计算机科学大师Jon Bentley以其独有的洞察力和创造力，从磨砺程序员的实际问题中凝结出一篇篇不朽的编程“珠玑”，成为世界计算机界名刊《ACM通讯》历史上最受欢迎的专栏，最终结集为两部不朽的计算机科学经典名著，影响和激励着一代又一代程序员和计算机科学工作者。本书为第一卷，主要讨论计算机科学中最本质的问题：如何正确选择和高效地实现算法。..</p>    <p>在书中，作者选取许多具有典型意义的复杂编程和算法问题，生动描绘了历史上众大师们在探索解决方案中发生的轶事、走过的弯路和不断精益求精的历程，引导读者像真正的程序员和软件工程师那样富于创新性地思考，并透彻阐述和总结了许多独特而精妙的设计原则、思考和解决问题的方法以及实用程序设计技巧。解决方案的代码均以C/C++语言编写，不仅有趣，而且有很大的实战示范意义。每章后所附习题极具挑战性和启发性，书末给出了简洁的解答。...</p>','/thinkphp/Public/img/lpic/9787115179289.jpg','/thinkphp/Public/img/mpic/9787115179289.jpg') [ RunTime:0.036002s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name_big`,`pic_name_small`) VALUES ('UNIX环境高级编程','W.Richard Stevens / Stephen A.Rago','尤晋元 / 张亚英 / 戚正伟',99,'人民邮电出版社','2006年',780,'平装','9787115147318','\n    <p>本书是被誉为UNIX编程“圣经”的Advanced Programming in the UNIX Environment一书的更新版。在本书第1版出版后的十几年中，UNIX行业已经有了巨大的变化，特别是影响UNIX编程接口的有关标准变化很大。本书在保持了前一版风格的基础上，根据最新的标准对内容进行了修订和增补，反映了最新的技术发展。书中除了介绍UNIX文件和目录、标准I/O库、系统数据文件和信息、进程环境、进程控制、进程关系、信号、线程、线程控制、守护进程、各种I/O、进程间通信、网络IPC、伪终端等方面的内容，还在此基础上介绍了多个应用示例，包括如何创建数据库函数库以及如何与网络打印机通信等。此外，还在附录中给出了函数原型和部分习题的答案。\r</p>    <p>    本书内容权威，概念清晰，阐述精辟，对于所有层次UNIX程序员都是一本不可或缺的参考书。</p>','/thinkphp/Public/img/lpic/9787115147318.jpg','/thinkphp/Public/img/mpic/9787115147318.jpg') [ RunTime:0.030002s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name_big`,`pic_name_small`) VALUES ('C++ Primer中文版','Stanley B.Lippman / Josée LaJoie / Barbara E.Moo','李师贤 / 蒋爱军 / 梅晓勇 / 林瑛',99,'人民邮电出版社','2006',745,'16开','9787115145543','\n    <p>本书是久负盛名的C++经典教程，其内容是C++大师Stanley B. Lippman丰富的实践经验和C++标准委员会原负责人Josée Lajoie对C++标准深入理解的完美结合，已经帮助全球无数程序员学会了C++。本版对前一版进行了彻底的修订，内容经过了重新组织，更加入了C++ 先驱Barbara E. Moo在C++教学方面的真知灼见。既显著改善了可读性，又充分体现了C++语言的最新进展和当前的业界最佳实践。书中不但新增大量教学辅助内容，用于强调重要的知识点，提醒常见的错误，推荐优秀的编程实践，给出使用提示，还包含大量来自实战的示例和习题。对C++基本概念和技术全面而且权威的阐述，对现代C++编程风格的强调，使本书成为C++初学者的最佳指南；对于中高级程序员，本书也是不可或缺的参考书。本书的前言阐述了 第4版和前一版的不同之处。</p>','/thinkphp/Public/img/lpic/9787115145543.jpg','/thinkphp/Public/img/mpic/9787115145543.jpg') [ RunTime:0.031001s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name_big`,`pic_name_small`) VALUES ('编码的奥秘','Charles Petzold','伍卫国 / 王宣政 / 孙燕妮',24,'中国标准出版社','2000-9-1',280,'平装','9787111080787','\n    <p>渴望交流是大多数人的天性。在本书中，“编码”通常指一种在人和机器之间进行信息转换的系统。换句话说、编码即是交流。有时我们将编码看得很神秘，其实大多数编码并非都是这样。大多数的编码都需要被很好地理解，因为它们是人类交流的基础。――《编码的奥秘》</p>    <p>手电筒、英国人入侵、黑色的猫和跷跷板与计算机有什么必然联系？本书向我们展示了使用语言的一些直观方法并创造新的方法来进行相互之间的交流。此书使我们明白了这种创造性――以及我们人类对交流的迫切需求――已经促进了过去两个世纪的革新</p>    <p>在本书中，作者Charles Petzold用常见的对象和诸如布莱叶育文、摩尔斯电码之类大家熟悉的语言系统，为那些曾经想知道计算机和其他智能机器内部“生命”奥秘的人们编排了一个生动的叙述。</p>    <p>本书由灵活的图解和生动的故事组成。沿着作者的这种介绍思路，通过本书的学习你将会发现你已经获得了一个理解今天的PC、数字多媒体和因特网的真实背景。无论你的技术水平怎样，本书都将会使你陶醉，并且很可能唤醒读者参与计算机事业。</p>','/thinkphp/Public/img/lpic/9787111080787.jpg','/thinkphp/Public/img/mpic/9787111080787.jpg') [ RunTime:0.027002s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name_big`,`pic_name_small`) VALUES ('黑客与画家','[美] Paul Graham','阮一峰',49,'人民邮电出版社','2011-4',264,'平装','9787115249494','\n    <p>本书是硅谷创业之父Paul Graham 的文集，主要介绍黑客即优秀程序员的爱好和动机，讨论黑客成长、黑客对世界的贡献以及编程语言和黑客工作方法等所有对计算机时代感兴趣的人的一些话题。书中的内容不但有助于了解计算机编程的本质、互联网行业的规则，还会帮助读者了解我们这个时代，迫使读者独立思考。</p>    <p>本书适合所有程序员和互联网创业者，也适合一切对计算机行业感兴趣的读者。</p>','/thinkphp/Public/img/lpic/9787115249494.jpg','/thinkphp/Public/img/mpic/9787115249494.jpg') [ RunTime:0.041002s ]
+SQL: INSERT INTO `sp_book` (`title`,`author`,`translator`,`price`,`publisher`,`publish_time`,`page_num`,`zhuangzhen`,`isbn`,`introduct`,`pic_name_big`,`pic_name_small`) VALUES ('程序员的自我修养','俞甲子 / 石凡 / 潘爱民','',65,'电子工业出版社','2009-4',459,'平装16开','9787121085116','\n    <p>这本书主要介绍系统软件的运行机制和原理，涉及在Windows和Linux两个系统平台上，一个应用程序在编译、链接和运行时刻所发生的各种事项，包括：代码指令是如何保存的，库文件如何与应用程序代码静态链接，应用程序如何被装载到内存中并开始运行，动态链接如何实现，C/C++运行库的工作原理，以及操作系统提供的系统服务是如何被调用的。每个技术专题都配备了大量图、表和代码实例，力求将复杂的机制以简洁的形式表达出来。本书最后还提供了一个小巧且跨平台的C/C++运行库MiniCRT，综合展示了与运行库相关的各种技术。</p>    <p>对装载、链接和库进行了深入浅出的剖析，并且辅以大量的例子和图表，可以作为计算机软件专业和其他相关专业大学本科高年级学生深入学习系统软件的参考书。同时，还可作为各行业从事软件开发的工程师、研究人员以及其他对系统软件实现机制和技术感兴趣者的自学教材。</p>','/thinkphp/Public/img/lpic/9787121085116.jpg','/thinkphp/Public/img/mpic/9787121085116.jpg') [ RunTime:0.037002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T12:49:02+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T12:53:49+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T12:55:17+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T12:55:53+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/Index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T12:57:20+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T12:58:23+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T13:00:07+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T13:00:32+08:00 ] ::1 /thinkphp/index.php/Home
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T13:00:36+08:00 ] ::1 /thinkphp/index.php/Home/Index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-02-23T13:00:46+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/Index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T13:09:43+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-02-23T13:10:10+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/Index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T13:15:33+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T13:16:13+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T13:18:55+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T13:22:04+08:00 ] 192.168.1.107 /thinkphp/index.php/Home/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T13:22:06+08:00 ] 192.168.1.107 /thinkphp/index.php/Home/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T13:22:40+08:00 ] 192.168.1.107 /thinkphp/index.php/Home/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T13:22:55+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-02-23T13:23:13+08:00 ] 192.168.1.107 /thinkphp/index.php/Home/Index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T13:23:44+08:00 ] 192.168.1.107 /thinkphp/index.php/Home/Index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%编程%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T13:26:57+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T13:27:54+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T13:29:55+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T13:30:32+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T13:31:36+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T13:32:09+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T13:32:38+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T13:33:11+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T13:34:50+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T13:40:24+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T13:43:10+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T13:46:50+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T13:49:33+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T14:12:08+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T14:19:42+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T14:25:47+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T14:53:09+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T14:56:31+08:00 ] ::1 /thinkphp/index.php/Home
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T14:56:37+08:00 ] ::1 /thinkphp/index.php/Home/Index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%Unix%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T14:59:26+08:00 ] ::1 /thinkphp/index.php/Home/Index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%Unix%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T15:03:41+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T15:10:07+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T15:10:26+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%Unix%' )  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T15:14:43+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-02-23T15:15:09+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T15:19:09+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T15:19:23+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T15:27:14+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T15:27:39+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T15:30:12+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-02-23T15:30:29+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T15:32:45+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T15:33:30+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T15:33:46+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%Unix%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T15:37:34+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T15:38:52+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T15:39:06+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%Unix%' )  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T15:40:25+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T15:40:39+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%Unix%' )  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T15:40:58+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%C%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T15:46:05+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T15:46:28+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%c%' )  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T15:48:44+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T15:49:06+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%c%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T15:54:17+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T15:54:53+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%c%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T15:57:00+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T15:57:10+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%c%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T16:00:55+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T16:01:11+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%c%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T16:20:26+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T16:21:03+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%Unix %' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T16:21:18+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%C%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T16:21:27+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%C%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T16:25:43+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T16:25:54+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%c%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T16:26:09+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%Unix%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T16:26:20+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%haha%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T16:27:39+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T16:27:51+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%c%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T16:28:03+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%app%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T16:30:48+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T16:31:04+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%aqa%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T16:34:00+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T16:34:12+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%weq%' )  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T16:35:49+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T16:36:02+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%asd%' )  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T16:46:51+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 49 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%asdasd%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T16:46:56+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 49 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T16:47:38+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 49 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T16:47:43+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/Index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 49 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%算法%' )  [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T16:49:13+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 49 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T16:52:43+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 49 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T16:52:52+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 49 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T17:00:16+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 49 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 54 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T17:03:29+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 49 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 54 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T17:07:06+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 49 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 54 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-02-23T17:10:11+08:00 ] 192.168.1.126 /thinkphp/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bookname - assumed 'bookname' F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 49 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 54 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established F:\xampp\htdocs\thinkphp\Application\Home\Controller\IndexController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `sp_book` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `sp_book` WHERE ( `title` LIKE '%程序%' )  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
